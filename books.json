@@ -1,0 +1,7009 @@
+[
+  {
+    "rank": 1,
+    "title": "El pozo y el péndulo",
+    "author": "Edgar Allan Poe",
+    "pages": 24,
+    "read": false
+  },
+  {
+    "rank": 2,
+    "title": "La nariz",
+    "author": "Nicolái Gógol",
+    "pages": 32,
+    "read": true
+  },
+  {
+    "rank": 3,
+    "title": "La caída de la casa Usher",
+    "author": "Edgar Allan Poe",
+    "pages": 32,
+    "read": false
+  },
+  {
+    "rank": 4,
+    "title": "Una modesta proposición",
+    "author": "Jonathan Swift",
+    "pages": 48,
+    "read": true
+  },
+  {
+    "rank": 5,
+    "title": "El teniente Gustl",
+    "author": "Arthur Schnitzler",
+    "pages": 64,
+    "read": true
+  },
+  {
+    "rank": 6,
+    "title": "La muerte de Ivan Ilich",
+    "author": "Lev Tolstói",
+    "pages": 96,
+    "read": false
+  },
+  {
+    "rank": 7,
+    "title": "La muerte en Venecia",
+    "author": "Thomas Mann",
+    "pages": 96,
+    "read": false
+  },
+  {
+    "rank": 8,
+    "title": "Historia del ojo",
+    "author": "Georges Bataille",
+    "pages": 96,
+    "read": false
+  },
+  {
+    "rank": 9,
+    "title": "El Principito",
+    "author": "Antoine de Saint-Exupéry",
+    "pages": 96,
+    "read": true
+  },
+  {
+    "rank": 10,
+    "title": "La sentencia de muerte",
+    "author": "Maurice Blanchot",
+    "pages": 96,
+    "read": false
+  },
+  {
+    "rank": 11,
+    "title": "Trenes rigurosamente vigilados",
+    "author": "Bohumil Hrabal",
+    "pages": 96,
+    "read": false
+  },
+  {
+    "rank": 12,
+    "title": "La hora de la estrella",
+    "author": "Clarice Lispector",
+    "pages": 96,
+    "read": false
+  },
+  {
+    "rank": 13,
+    "title": "La paloma",
+    "author": "Patrick Süskind",
+    "pages": 96,
+    "read": false
+  },
+  {
+    "rank": 14,
+    "title": "Seda",
+    "author": "Alessandro Baricco",
+    "pages": 96,
+    "read": false
+  },
+  {
+    "rank": 15,
+    "title": "De ratones y hombres",
+    "author": "John Steinbeck",
+    "pages": 112,
+    "read": false
+  },
+  {
+    "rank": 16,
+    "title": "Rebelión en la granja",
+    "author": "George Orwell",
+    "pages": 112,
+    "read": true
+  },
+  {
+    "rank": 17,
+    "title": "El extranjero",
+    "author": "Albert Camus",
+    "pages": 123,
+    "read": false
+  },
+  {
+    "rank": 18,
+    "title": "Pedro Páramo",
+    "author": "Juan Rulfo",
+    "pages": 124,
+    "read": false
+  },
+  {
+    "rank": 19,
+    "title": "El viejo y el mar",
+    "author": "Ernest Hemingway",
+    "pages": 127,
+    "read": false
+  },
+  {
+    "rank": 20,
+    "title": "Lazarillo de Tormes",
+    "author": "Anónimo",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 21,
+    "title": "El castillo de Otranto",
+    "author": "Horace Walpole",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 22,
+    "title": "The man of feeling",
+    "author": "Henry Mackenzie",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 23,
+    "title": "El castillo de Rackrent",
+    "author": "Maria Edgeworth",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 24,
+    "title": "El sobrino de Rameau",
+    "author": "Denis Diderot",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 25,
+    "title": "Michael Kohlhaas",
+    "author": "Heinrich von Kleist",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 26,
+    "title": "La sonata a Kreutzer",
+    "author": "Lev Tolstói",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 27,
+    "title": "La máquina del tiempo",
+    "author": "H. G. Wells",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 28,
+    "title": "Ethan Frome",
+    "author": "Edith Wharton",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 29,
+    "title": "El retorno del soldado",
+    "author": "Rebecca West",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 30,
+    "title": "La casa de Claudina",
+    "author": "Colette",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 31,
+    "title": "Life and Death of Harriett Frean",
+    "author": "May Sinclair",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 32,
+    "title": "Amok",
+    "author": "Stefan Zweig",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 33,
+    "title": "Los niños terribles",
+    "author": "Jean Cocteau",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 34,
+    "title": "Laia",
+    "author": "Salvador Espriu",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 35,
+    "title": "Queso",
+    "author": "Willem Elsschot",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 36,
+    "title": "El cartero siempre llama dos veces",
+    "author": "James M. Cain",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 37,
+    "title": "En las montañas de la locura",
+    "author": "H.P. Lovecraft",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 38,
+    "title": "La invención de Morel",
+    "author": "Adolfo Bioy Casares",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 39,
+    "title": "En el corazón de los mares",
+    "author": "Shmuel Yosef Agnon",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 40,
+    "title": "Los trece relojes",
+    "author": "James Thurber",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 41,
+    "title": "Malone muere",
+    "author": "Samuel Beckett",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 42,
+    "title": "El juez y su verdugo",
+    "author": "Friedrich Dürrenmatt",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 43,
+    "title": "Réquiem por un campesino español",
+    "author": "Ramón J. Sender",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 44,
+    "title": "La celosía",
+    "author": "Alain Robbe-Grillet",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 45,
+    "title": "The Prime of Miss Jean Brodie",
+    "author": "Muriel Spark",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 46,
+    "title": "Memorias de un niño campesino",
+    "author": "Xosé Neira Vilas",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 47,
+    "title": "Te dejo el mar",
+    "author": "Carme Riera",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 48,
+    "title": "La mujer zurda",
+    "author": "Peter Handke",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 49,
+    "title": "El amante",
+    "author": "Marguerite Duras",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 50,
+    "title": "Amado monstruo",
+    "author": "Javier Tomeo",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 51,
+    "title": "La tarde de un escritor",
+    "author": "Peter Handke",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 52,
+    "title": "La Virgen de los Sicarios",
+    "author": "Fernando Vallejo",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 53,
+    "title": "Welcome to Our Hillbrow",
+    "author": "Phaswane Mpe",
+    "pages": 128,
+    "read": false
+  },
+  {
+    "rank": 54,
+    "title": "Cándido o el optimismo",
+    "author": "Voltaire",
+    "pages": 144,
+    "read": false
+  },
+  {
+    "rank": 55,
+    "title": "El extraño caso del Dr. Jekyll y Mr. Hyde",
+    "author": "Robert Louis Stevenson",
+    "pages": 144,
+    "read": false
+  },
+  {
+    "rank": 56,
+    "title": "El corazón de las tinieblas",
+    "author": "Joseph Conrad",
+    "pages": 144,
+    "read": false
+  },
+  {
+    "rank": 57,
+    "title": "La llamada de la selva",
+    "author": "Jack London",
+    "pages": 144,
+    "read": false
+  },
+  {
+    "rank": 58,
+    "title": "Los treinta y nueve escalones",
+    "author": "John Buchan",
+    "pages": 144,
+    "read": false
+  },
+  {
+    "rank": 59,
+    "title": "El búho ciego",
+    "author": "Sadeq Hedayat",
+    "pages": 144,
+    "read": false
+  },
+  {
+    "rank": 60,
+    "title": "In Watermelon Sugar",
+    "author": "Richard Brautigan",
+    "pages": 144,
+    "read": false
+  },
+  {
+    "rank": 61,
+    "title": "Cantar del Mio Cid",
+    "author": "Anónimo",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 62,
+    "title": "Memoirs of Martinus Scriblerus",
+    "author": "J. Arbuthnot et al.",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 63,
+    "title": "La historia de Rasselas príncipe de Abisinia",
+    "author": "Samuel Johnson",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 64,
+    "title": "Viaje sentimental por Francia e Italia",
+    "author": "Laurence Sterne",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 65,
+    "title": "Las ensoñaciones del paseante solitario",
+    "author": "Jean-Jacques Rousseau",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 66,
+    "title": "Vathek",
+    "author": "William Beckford",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 67,
+    "title": "De la vida de un inútil",
+    "author": "Joseph von Eichendorff",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 68,
+    "title": "Memorias del subsuelo",
+    "author": "Fiódor Dostoievski",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 69,
+    "title": "La isla del Dr. Moreau",
+    "author": "H. G. Wells",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 70,
+    "title": "El inmoralista",
+    "author": "André Gide",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 71,
+    "title": "La puerta estrecha",
+    "author": "André Gide",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 72,
+    "title": "Siddhartha",
+    "author": "Hermann Hesse",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 73,
+    "title": "El diablo en el cuerpo",
+    "author": "Raymond Radiguet",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 74,
+    "title": "Nadja",
+    "author": "André Breton",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 75,
+    "title": "Passing",
+    "author": "Nella Larsen",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 76,
+    "title": "San Manuel Bueno mártir y tres historias más",
+    "author": "Miguel de Unamuno",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 77,
+    "title": "La calle de los cocodrilos",
+    "author": "Bruno Schulz",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 78,
+    "title": "En las cimas de la desesperación",
+    "author": "Émile M. Cioran",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 79,
+    "title": "¿Acaso no matan a los caballos?",
+    "author": "Horace McCoy",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 80,
+    "title": "El intocable",
+    "author": "Mulk Raj Anand",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 81,
+    "title": "Pippi Calzaslargas",
+    "author": "Astrid Lindgren",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 82,
+    "title": "Arcanum 17",
+    "author": "André Breton",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 83,
+    "title": "El túnel",
+    "author": "Ernesto Sábato",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 84,
+    "title": "El cura C",
+    "author": "Georges Bataille",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 85,
+    "title": "Mil grullas",
+    "author": "Yasunari Kawabata",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 86,
+    "title": "Buenos días tristeza",
+    "author": "Françoise Sagan",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 87,
+    "title": "The Lonely Londoners",
+    "author": "Sam Selvon",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 88,
+    "title": "El azul del cielo",
+    "author": "Georges Bataille",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 89,
+    "title": "Desayuno en Tiffany's",
+    "author": "Truman Capote",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 90,
+    "title": "Las señoritas de escasos medios",
+    "author": "Muriel Spark",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 91,
+    "title": "The River Between",
+    "author": "Ngugi Wa Thiong'o",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 92,
+    "title": "Las cosas",
+    "author": "Georges Perec",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 93,
+    "title": "A cada cual lo suyo",
+    "author": "Leonardo Sciascia",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 94,
+    "title": "La subasta del lote 49",
+    "author": "Thomas Pynchon",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 95,
+    "title": "Moscú-Petushkí",
+    "author": "Venedikt Yerofeev",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 96,
+    "title": "El informe de Brodie",
+    "author": "Jorge Luis Borges",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 97,
+    "title": "El castillo de los destinos cruzados",
+    "author": "Italo Calvino",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 98,
+    "title": "El honor perdido de Katharina Blum",
+    "author": "Heinrich Böll",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 99,
+    "title": "Tierras en penumbra",
+    "author": "J.M. Coetzee",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 100,
+    "title": "Azul casi transparente",
+    "author": "Ryu Murakami",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 101,
+    "title": "Jardín de cemento",
+    "author": "Ian McEwan",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 102,
+    "title": "Asedio preventivo",
+    "author": "Heinrich Böll",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 103,
+    "title": "No habrá más penas ni olvido",
+    "author": "Osvaldo Soriano",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 104,
+    "title": "Kitchen",
+    "author": "Banana Yoshimoto",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 105,
+    "title": "Ampliación del campo de batalla",
+    "author": "Michel Houellebecq",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 106,
+    "title": "El amor molesto",
+    "author": "Elena Ferrante",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 107,
+    "title": "Love's Work",
+    "author": "Gillian Rose",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 108,
+    "title": "Estupor y temblores",
+    "author": "Amélie Nothomb",
+    "pages": 160,
+    "read": false
+  },
+  {
+    "rank": 109,
+    "title": "Las ciudades invisibles",
+    "author": "Italo Calvino",
+    "pages": 165,
+    "read": false
+  },
+  {
+    "rank": 110,
+    "title": "La princesa de Clèves",
+    "author": "Condesa de La Fayette",
+    "pages": 176,
+    "read": false
+  },
+  {
+    "rank": 111,
+    "title": "Hiperión",
+    "author": "Friedrich Hölderlin",
+    "pages": 176,
+    "read": false
+  },
+  {
+    "rank": 112,
+    "title": "Alicia en el País de las Maravillas",
+    "author": "Lewis Carroll",
+    "pages": 176,
+    "read": false
+  },
+  {
+    "rank": 113,
+    "title": "Pierre y Jean",
+    "author": "Guy de Maupassant",
+    "pages": 176,
+    "read": false
+  },
+  {
+    "rank": 114,
+    "title": "Los extravíos del colegial Törless",
+    "author": "Robert Musil",
+    "pages": 176,
+    "read": false
+  },
+  {
+    "rank": 115,
+    "title": "Quicksand",
+    "author": "Nella Larsen",
+    "pages": 176,
+    "read": false
+  },
+  {
+    "rank": 116,
+    "title": "Buenos días medianoche",
+    "author": "Jean Rhys",
+    "pages": 176,
+    "read": false
+  },
+  {
+    "rank": 117,
+    "title": "Yonqui",
+    "author": "William Burroughs",
+    "pages": 176,
+    "read": false
+  },
+  {
+    "rank": 118,
+    "title": "Esperando a los bárbaros",
+    "author": "J.M. Coetzee",
+    "pages": 176,
+    "read": false
+  },
+  {
+    "rank": 119,
+    "title": "El sobrino de Wittgenstein",
+    "author": "Thomas Bernhard",
+    "pages": 176,
+    "read": false
+  },
+  {
+    "rank": 120,
+    "title": "Matigari",
+    "author": "Ngugi Wa Thiong'o",
+    "pages": 176,
+    "read": false
+  },
+  {
+    "rank": 121,
+    "title": "El gran Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "pages": 180,
+    "read": false
+  },
+  {
+    "rank": 122,
+    "title": "Las desventuras del joven Werther",
+    "author": "Johann Wolfgang von Goethe",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 123,
+    "title": "Enrique de Ofterdingen",
+    "author": "Novalis",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 124,
+    "title": "Aguas primaverales",
+    "author": "Iván Turguéniev",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 125,
+    "title": "Martín Fierro",
+    "author": "José Hernández",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 126,
+    "title": "Diario de un don nadie",
+    "author": "George & Weedon Grossmith",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 127,
+    "title": "Doña Berta Cuervo Superchería",
+    "author": "Leopoldo Alas \"Clarín\"",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 128,
+    "title": "Los alimentos terrenales",
+    "author": "André Gide",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 129,
+    "title": "La guerra de los mundos",
+    "author": "H. G. Wells",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 130,
+    "title": "Castilla",
+    "author": "Azorín",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 131,
+    "title": "The Charwoman's Daughter",
+    "author": "James Stephens",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 132,
+    "title": "Platero y yo",
+    "author": "Juan Ramón Jiménez",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 133,
+    "title": "Rashomon y otros cuentos",
+    "author": "Akutagawa Ryunosuke",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 134,
+    "title": "Los de abajo",
+    "author": "Mariano Azuela",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 135,
+    "title": "Pallieter",
+    "author": "Felix Timmermans",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 136,
+    "title": "Chaka",
+    "author": "Thomas Mofolo",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 137,
+    "title": "Uno ninguno y cien mil",
+    "author": "Luigi Pirandello",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 138,
+    "title": "Mort de dama",
+    "author": "Llorenç Villalonga",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 139,
+    "title": "Las lanzas coloradas",
+    "author": "Arturo Uslar Pietri",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 140,
+    "title": "A Day Off",
+    "author": "Storm Jameson",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 141,
+    "title": "Huasipungo",
+    "author": "Jorge Icaza",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 142,
+    "title": "Mr. Norris cambia de tren",
+    "author": "Christopher Isherwood",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 143,
+    "title": "El bosque de la noche",
+    "author": "Djuna Barnes",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 144,
+    "title": "De tu tierra",
+    "author": "Cesare Pavese",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 145,
+    "title": "El hombre en suspenso",
+    "author": "Saul Bellow",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 146,
+    "title": "Memorias de Leticia Valle",
+    "author": "Rosa Chacel",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 147,
+    "title": "El sendero de los nidos de araña",
+    "author": "Italo Calvino",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 148,
+    "title": "Si esto es un hombre",
+    "author": "Primo Levi",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 149,
+    "title": "Ejercicios de estilo",
+    "author": "Raymond Queneau",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 150,
+    "title": "Viaje a la Alcarria",
+    "author": "Camilo José Cela",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 151,
+    "title": "La desobediencia",
+    "author": "Alberto Moravia",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 152,
+    "title": "La cabeza del cordero",
+    "author": "Francisco Ayala",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 153,
+    "title": "El Aleph",
+    "author": "Jorge Luis Borges",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 154,
+    "title": "La luna y las fogatas",
+    "author": "Cesare Pavese",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 155,
+    "title": "Confabulario",
+    "author": "Juan José Arreola",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 156,
+    "title": "El invernadero",
+    "author": "Wolfgang Koeppen",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 157,
+    "title": "El llano en llamas",
+    "author": "Juan Rulfo",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 158,
+    "title": "Pomladni dan",
+    "author": "Ciril Kosmac",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 159,
+    "title": "El rumor del oleaje",
+    "author": "Yukio Mishima",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 160,
+    "title": "Los bravos",
+    "author": "Jesús Fernández Santos",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 161,
+    "title": "El americano impasible",
+    "author": "Graham Greene",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 162,
+    "title": "Abejas de cristal",
+    "author": "Ernst Jünger",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 163,
+    "title": "Pnin",
+    "author": "Vladimir Nabokov",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 164,
+    "title": "Gran sol",
+    "author": "Ignacio Aldecoa",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 165,
+    "title": "Obras completas (y otros cuentos)",
+    "author": "Augusto Monterroso",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 166,
+    "title": "Billy Liar",
+    "author": "Keith Waterhouse",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 167,
+    "title": "Las armas secretas",
+    "author": "Julio Cortázar",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 168,
+    "title": "The Country Girls",
+    "author": "Edna O'Brien",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 169,
+    "title": "El gato y el ratón",
+    "author": "Günter Grass",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 170,
+    "title": "Las ratas",
+    "author": "Miguel Delibes",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 171,
+    "title": "La naranja mecánica",
+    "author": "Anthony Burgess",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 172,
+    "title": "Un día en la vida de Iván Denisovich",
+    "author": "Alexandr Solzhenitsin",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 173,
+    "title": "El graduado",
+    "author": "Charles Webb",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 174,
+    "title": "El arrebato de Lol von Stein",
+    "author": "Marguerite Duras",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 175,
+    "title": "La pasión según G.H.",
+    "author": "Clarice Lispector",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 176,
+    "title": "Bašta pepeo",
+    "author": "Danilo Kiš",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 177,
+    "title": "Ancho mar de los Sargazos",
+    "author": "Jean Rhys",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 178,
+    "title": "A Kestrel for a Knave",
+    "author": "Barry Hines",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 179,
+    "title": "Mawsim al-hijrah ila'l-shamal",
+    "author": "Tayeb Salih",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 180,
+    "title": "Bilmo",
+    "author": "Mykhaylo Osadchyl",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 181,
+    "title": "Cobra",
+    "author": "Severo Sarduy",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 182,
+    "title": "Resurgir",
+    "author": "Margaret Atwood",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 183,
+    "title": "Luka",
+    "author": "Antun Soljan",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 184,
+    "title": "El año de la liebre",
+    "author": "Arto Paasilinna",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 185,
+    "title": "Mortal y rosa",
+    "author": "Francisco Umbral",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 186,
+    "title": "Willard y sus trofeos de bolos",
+    "author": "Richard Brautigan",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 187,
+    "title": "The Dead Father",
+    "author": "Donald Barthelme",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 188,
+    "title": "El cuarto de atrás",
+    "author": "Carmen Martín Gaite",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 189,
+    "title": "Abril quebrado",
+    "author": "Ismail Kadaré",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 190,
+    "title": "La gente de July",
+    "author": "Nadine Gordimer",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 191,
+    "title": "Pálida luz en las colinas",
+    "author": "Kazuo Ishiguro",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 192,
+    "title": "El entenado",
+    "author": "Juan José Saer",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 193,
+    "title": "El loro de Flaubert",
+    "author": "Julian Barnes",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 194,
+    "title": "El hombre joven",
+    "author": "Botho Strauss",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 195,
+    "title": "Beyaz Kale",
+    "author": "Orhan Pamuk",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 196,
+    "title": "Der Blindensturz",
+    "author": "Gert Hofmann",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 197,
+    "title": "Balada za Georg Henih",
+    "author": "Viktor Paskov",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 198,
+    "title": "Inland",
+    "author": "Gerald Murnane",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 199,
+    "title": "La magnitud de la tragedia",
+    "author": "Quim Monzó",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 200,
+    "title": "Espejismos",
+    "author": "Jeanette Winterson",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 201,
+    "title": "Amongst Women",
+    "author": "John McGahern",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 202,
+    "title": "Un millón de vacas",
+    "author": "Manuel Rivas",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 203,
+    "title": "Astradeni",
+    "author": "Eugenia Fakinou",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 204,
+    "title": "La liebre",
+    "author": "César Aira",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 205,
+    "title": "Memoirs of Rain",
+    "author": "Sunetra Gupta",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 206,
+    "title": "Asphodel",
+    "author": "H.D.",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 207,
+    "title": "Escrito en el cuerpo",
+    "author": "Jeanette Winterson",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 208,
+    "title": "Looking for a Possible Dance",
+    "author": "A.L. Kennedy",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 209,
+    "title": "La escala de los mapas",
+    "author": "Belén Gopegui",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 210,
+    "title": "Disappearance",
+    "author": "David Dabydeen",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 211,
+    "title": "Sostiene Pereira",
+    "author": "Antonio Tabucchi",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 212,
+    "title": "Carreteras secundarias",
+    "author": "Ignacio Martínez de Pisón",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 213,
+    "title": "Veronika decide morir",
+    "author": "Paulo Coelho",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 214,
+    "title": "Como si yo no estuviera",
+    "author": "Slavenka Drakulić",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 215,
+    "title": "Bartleby y compañía",
+    "author": "Enrique Vila-Matas",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 216,
+    "title": "Piiririik",
+    "author": "Tõnu Õnnepalu",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 217,
+    "title": "Frías flores de marzo",
+    "author": "Ismail Kadaré",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 218,
+    "title": "Pasardhësi",
+    "author": "Ismail Kadaré",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 219,
+    "title": "Blanco sobre negro",
+    "author": "Rubén Gallego",
+    "pages": 192,
+    "read": false
+  },
+  {
+    "rank": 220,
+    "title": "La señora Dalloway",
+    "author": "Virginia Woolf",
+    "pages": 194,
+    "read": false
+  },
+  {
+    "rank": 221,
+    "title": "La ignorancia",
+    "author": "Milan Kundera",
+    "pages": 195,
+    "read": false
+  },
+  {
+    "rank": 222,
+    "title": "Miedo y asco en Las Vegas",
+    "author": "Hunter S. Thompson",
+    "pages": 204,
+    "read": false
+  },
+  {
+    "rank": 223,
+    "title": "Un héroe de nuestro tiempo",
+    "author": "Mijail I. Lermontov",
+    "pages": 208,
+    "read": false
+  },
+  {
+    "rank": 224,
+    "title": "El despertar",
+    "author": "Kate Chopin",
+    "pages": 208,
+    "read": false
+  },
+  {
+    "rank": 225,
+    "title": "Ficciones",
+    "author": "Jorge Luis Borges",
+    "pages": 208,
+    "read": false
+  },
+  {
+    "rank": 226,
+    "title": "El tercer policía",
+    "author": "Flann O'Brien",
+    "pages": 208,
+    "read": false
+  },
+  {
+    "rank": 227,
+    "title": "House Mother Normal: A Geriatric Comedy",
+    "author": "B.S. Johnson",
+    "pages": 208,
+    "read": false
+  },
+  {
+    "rank": 228,
+    "title": "Los hundidos y los salvados",
+    "author": "Primo Levi",
+    "pages": 208,
+    "read": false
+  },
+  {
+    "rank": 229,
+    "title": "Nervous Conditions",
+    "author": "Tsitsi Dangarembga",
+    "pages": 208,
+    "read": false
+  },
+  {
+    "rank": 230,
+    "title": "Todo se desmorona",
+    "author": "Chinua Achebe",
+    "pages": 209,
+    "read": false
+  },
+  {
+    "rank": 231,
+    "title": "Soldados de Salamina",
+    "author": "Javier Cercas",
+    "pages": 209,
+    "read": false
+  },
+  {
+    "rank": 232,
+    "title": "La música del azar",
+    "author": "Paul Auster",
+    "pages": 217,
+    "read": false
+  },
+  {
+    "rank": 233,
+    "title": "El lector",
+    "author": "Bernard Schlink",
+    "pages": 218,
+    "read": false
+  },
+  {
+    "rank": 234,
+    "title": "Desgracia",
+    "author": "J.M. Coetzee",
+    "pages": 220,
+    "read": false
+  },
+  {
+    "rank": 235,
+    "title": "El buscón",
+    "author": "Francisco de Quevedo",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 236,
+    "title": "Fanny Hill: Memorias de una cortesana",
+    "author": "John Cleland",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 237,
+    "title": "El vicario de Wakefield",
+    "author": "Oliver Goldsmith",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 238,
+    "title": "La religiosa",
+    "author": "Denis Diderot",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 239,
+    "title": "Cranford",
+    "author": "Elizabeth Gaskell",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 240,
+    "title": "Los cantos de Maldoror",
+    "author": "Conde de Lautréamont",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 241,
+    "title": "Alicia a través del espejo",
+    "author": "Lewis Carroll",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 242,
+    "title": "Los habitantes de Hemsö",
+    "author": "August Strindberg",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 243,
+    "title": "Thaïs la cortesana",
+    "author": "Anatole France",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 244,
+    "title": "Los escándalos de Crome",
+    "author": "Aldous Huxley",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 245,
+    "title": "El incongruente",
+    "author": "Ramón Gómez de la Serna",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 246,
+    "title": "Nosotros",
+    "author": "Evgueni Zamiatin",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 247,
+    "title": "Don Segundo Sombra",
+    "author": "Ricardo Güiraldes",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 248,
+    "title": "Al faro",
+    "author": "Virginia Woolf",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 249,
+    "title": "Hay quien prefiere las ortigas",
+    "author": "Junichiro Tanizaki",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 250,
+    "title": "El halcón maltés",
+    "author": "Dashiell Hammett",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 251,
+    "title": "El hombre delgado",
+    "author": "Dashiell Hammett",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 252,
+    "title": "Nudo de víboras",
+    "author": "François Mauriac",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 253,
+    "title": "Adiós a Berlín",
+    "author": "Christopher Isherwood",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 254,
+    "title": "El último encuentro",
+    "author": "Sándor Márai",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 255,
+    "title": "La espuma de los días",
+    "author": "Boris Vian",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 256,
+    "title": "El asesino dentro de mí",
+    "author": "Jim Thompson",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 257,
+    "title": "Casino Royale",
+    "author": "Ian Fleming",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 258,
+    "title": "Historia de O",
+    "author": "Pauline Réage",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 259,
+    "title": "El señor de las moscas",
+    "author": "William Golding",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 260,
+    "title": "El sueño de los héroes",
+    "author": "Adolfo Bioy Casares",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 261,
+    "title": "Rosaura a las diez",
+    "author": "Marco Denevi",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 262,
+    "title": "Chicos del arroyo",
+    "author": "Pier Paolo Pasolini",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 263,
+    "title": "La habitación de Giovanni",
+    "author": "James Baldwin",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 264,
+    "title": "Los cucos de Midwich",
+    "author": "John Wyndham",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 265,
+    "title": "Sábado por la noche y domingo por la mañana",
+    "author": "Alan Sillitoe",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 266,
+    "title": "El gatopardo",
+    "author": "Giuseppe Tomasi de Lampedusa",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 267,
+    "title": "Primera memoria",
+    "author": "Ana María Matute",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 268,
+    "title": "El astillero",
+    "author": "Juan Carlos Onetti",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 269,
+    "title": "Solaris",
+    "author": "Stanislaw Lem",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 270,
+    "title": "Girl with Green Eyes",
+    "author": "Edna O'Brien",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 271,
+    "title": "Noticias sobre Christa T.",
+    "author": "Christa Wolf",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 272,
+    "title": "Matadero cinco",
+    "author": "Kurt Vonnegut",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 273,
+    "title": "Un ciego con una pistola",
+    "author": "Chester Himes",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 274,
+    "title": "Ojos azules",
+    "author": "Toni Morrison",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 275,
+    "title": "Crash",
+    "author": "J.G. Ballard",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 276,
+    "title": "A Question of Power",
+    "author": "Bessie Head",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 277,
+    "title": "Guía del autoestopista galáctico",
+    "author": "Douglas Adams",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 278,
+    "title": "Los mares del sur",
+    "author": "Manuel Vázquez Montalbán",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 279,
+    "title": "Rituales",
+    "author": "Cees Nooteboom",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 280,
+    "title": "Vida y época de Michael K",
+    "author": "J.M. Coetzee",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 281,
+    "title": "La bella señora Seidenman",
+    "author": "Andrzej Szczypiorski",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 282,
+    "title": "Un artista del mundo flotante",
+    "author": "Kazuo Ishiguro",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 283,
+    "title": "Tío Petros y la conjetura de Goldbach",
+    "author": "Apostolos Doxiadis",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 284,
+    "title": "Río profundo",
+    "author": "Shusaku Endo",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 285,
+    "title": "Plata quemada",
+    "author": "Ricardo Piglia",
+    "pages": 224,
+    "read": false
+  },
+  {
+    "rank": 286,
+    "title": "El curioso incidente del perro a medianoche",
+    "author": "Mark Haddon",
+    "pages": 226,
+    "read": false
+  },
+  {
+    "rank": 287,
+    "title": "Las horas",
+    "author": "Michael Cunningham",
+    "pages": 230,
+    "read": false
+  },
+  {
+    "rank": 288,
+    "title": "Eugenio Oneguin",
+    "author": "Alexandr Pushkin",
+    "pages": 240,
+    "read": false
+  },
+  {
+    "rank": 289,
+    "title": "Silas Marner",
+    "author": "George Eliot",
+    "pages": 240,
+    "read": false
+  },
+  {
+    "rank": 290,
+    "title": "Memorias póstumas de Brás Cubas",
+    "author": "Joaquim Maria Machado de Assis",
+    "pages": 240,
+    "read": false
+  },
+  {
+    "rank": 291,
+    "title": "Entre paréntesis",
+    "author": "David Jones",
+    "pages": 240,
+    "read": false
+  },
+  {
+    "rank": 292,
+    "title": "Miss Pettigrew Lives for a Day",
+    "author": "Winifred Watson",
+    "pages": 240,
+    "read": false
+  },
+  {
+    "rank": 293,
+    "title": "En Nadar-dos-Pájaros",
+    "author": "Flann O'Brien",
+    "pages": 240,
+    "read": false
+  },
+  {
+    "rank": 294,
+    "title": "El desierto de los tártaros",
+    "author": "Dino Buzzati",
+    "pages": 240,
+    "read": false
+  },
+  {
+    "rank": 295,
+    "title": "El fin de la aventura",
+    "author": "Graham Greene",
+    "pages": 240,
+    "read": false
+  },
+  {
+    "rank": 296,
+    "title": "Respiración artificial",
+    "author": "Ricardo Piglia",
+    "pages": 240,
+    "read": false
+  },
+  {
+    "rank": 297,
+    "title": "Como la vida misma",
+    "author": "Lorrie Moore",
+    "pages": 240,
+    "read": false
+  },
+  {
+    "rank": 298,
+    "title": "Del amor",
+    "author": "Alain de Botton",
+    "pages": 240,
+    "read": false
+  },
+  {
+    "rank": 299,
+    "title": "Mao II",
+    "author": "Don DeLillo",
+    "pages": 241,
+    "read": false
+  },
+  {
+    "rank": 300,
+    "title": "Las vírgenes suicidas",
+    "author": "Jeffrey Eugenides",
+    "pages": 249,
+    "read": false
+  },
+  {
+    "rank": 301,
+    "title": "Fundación",
+    "author": "Isaac Asimov",
+    "pages": 255,
+    "read": false
+  },
+  {
+    "rank": 302,
+    "title": "El conde Lucanor",
+    "author": "Don Juan Manuel",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 303,
+    "title": "Narración de la vida de Olaudah Equiano",
+    "author": "Olaudah Equiano",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 304,
+    "title": "Memorias privadas y confesiones de un pecador justificado",
+    "author": "James Hogg",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 305,
+    "title": "Eugenia Grandet",
+    "author": "Honoré de Balzac",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 306,
+    "title": "La charca del diablo",
+    "author": "Georges Sand",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 307,
+    "title": "Padres e hijos",
+    "author": "Iván Turguéniev",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 308,
+    "title": "Teresa Raquin",
+    "author": "Émile Zola",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 309,
+    "title": "Erewhon",
+    "author": "Samuel Butler",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 310,
+    "title": "Pepita Jiménez",
+    "author": "Juan Valera",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 311,
+    "title": "A contrapelo",
+    "author": "Joris-Karl Huysmans",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 312,
+    "title": "Hambre",
+    "author": "Knut Hamsun",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 313,
+    "title": "Senectud",
+    "author": "Italo Svevo",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 314,
+    "title": "Don Casmurro",
+    "author": "Joachim Maria Machado de Assis",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 315,
+    "title": "El sabueso de los Baskerville",
+    "author": "Arthur Conan Doyle",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 316,
+    "title": "El profesor Unrat",
+    "author": "Heinrich Mann",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 317,
+    "title": "Solitud",
+    "author": "Victor Català",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 318,
+    "title": "La casa en el confín de la tierra",
+    "author": "William Hope Hodgson",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 319,
+    "title": "Una habitación con vistas",
+    "author": "E. M. Forster",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 320,
+    "title": "Los cuadernos de Malte Laurids Brigge",
+    "author": "Rainer Maria Rilke",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 321,
+    "title": "El buen soldado",
+    "author": "Ford Madox Ford",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 322,
+    "title": "El proceso",
+    "author": "Franz Kafka",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 323,
+    "title": "El asesinato de Rogelio Ackroyd",
+    "author": "Agatha Christie",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 324,
+    "title": "Tirano Banderas",
+    "author": "Ramón María del Valle-Inclán",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 325,
+    "title": "Blindness",
+    "author": "Henry Green",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 326,
+    "title": "Fiesta",
+    "author": "Ernest Hemingway",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 327,
+    "title": "El lobo estepario",
+    "author": "Hermann Hesse",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 328,
+    "title": "Living",
+    "author": "Henry Green",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 329,
+    "title": "La hija de Robert Poste",
+    "author": "Stella Gibbons",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 330,
+    "title": "Gracias Jeeves",
+    "author": "P.G. Wodehouse",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 331,
+    "title": "Luotuo Xiangzi",
+    "author": "Lao She",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 332,
+    "title": "Sus ojos miraban a Dios",
+    "author": "Zora Neale Hurston",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 333,
+    "title": "Murphy",
+    "author": "Samuel Beckett",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 334,
+    "title": "Brighton parque de atracciones",
+    "author": "Graham Greene",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 335,
+    "title": "Motivo de alarma",
+    "author": "Eric Ambler",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 336,
+    "title": "La náusea",
+    "author": "Jean-Paul Sartre",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 337,
+    "title": "El sueño eterno",
+    "author": "Raymond Chandler",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 338,
+    "title": "Back",
+    "author": "Henry Green",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 339,
+    "title": "Cenizas y diamantes",
+    "author": "Jerzy Andrzejewski",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 340,
+    "title": "Amor en un clima frío",
+    "author": "Nancy Mitford",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 341,
+    "title": "Yo robot",
+    "author": "Isaac Asimov",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 342,
+    "title": "Canta la hierba",
+    "author": "Doris Lessing",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 343,
+    "title": "Molloy",
+    "author": "Samuel Beckett",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 344,
+    "title": "Sangre sabia",
+    "author": "Flannery O'Connor",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 345,
+    "title": "Jim buena suerte",
+    "author": "Kingsley Amis",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 346,
+    "title": "El desprecio",
+    "author": "Alberto Moravia",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 347,
+    "title": "Crónicas de la verdad oculta",
+    "author": "Pere Calders",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 348,
+    "title": "Justine",
+    "author": "Lawrence Durrell",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 349,
+    "title": "Homo Faber",
+    "author": "Max Frisch",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 350,
+    "title": "Merlín y familia",
+    "author": "Álvaro Cunqueiro",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 351,
+    "title": "Confesiones de un rebelde irlandés",
+    "author": "Brendan Behan",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 352,
+    "title": "The Bitter Glass",
+    "author": "Eilís Dillon",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 353,
+    "title": "El guía",
+    "author": "R.K. Narayan",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 354,
+    "title": "Los ríos profundos",
+    "author": "José María Arguedas",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 355,
+    "title": "Sidra con Rosie",
+    "author": "Laurie Lee",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 356,
+    "title": "El almuerzo desnudo",
+    "author": "William Burroughs",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 357,
+    "title": "Las historias naturales",
+    "author": "Joan Perucho",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 358,
+    "title": "Cabeza cortada",
+    "author": "Iris Murdoch",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 359,
+    "title": "Bearn o la sala de las muñecas",
+    "author": "Llorenç Villalonga",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 360,
+    "title": "La plaza del Diamante",
+    "author": "Mercè Rodoreda",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 361,
+    "title": "Enderby por dentro",
+    "author": "Anthony Burgess",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 362,
+    "title": "El espía que surgió del frío",
+    "author": "John Le Carré",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 363,
+    "title": "¿Sueñan los androides con ovejas eléctricas?",
+    "author": "Philip K. Dick",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 364,
+    "title": "Myra Breckinridge",
+    "author": "Gore Vidal",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 365,
+    "title": "El hurgón mágico",
+    "author": "Robert Coover",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 366,
+    "title": "A látogató",
+    "author": "György Konrád",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 367,
+    "title": "Boquitas pintadas",
+    "author": "Manuel Puig",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 368,
+    "title": "En un estado libre",
+    "author": "V.S. Naipul",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 369,
+    "title": "Las delicias de la maternidad",
+    "author": "Buchi Emecheta",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 370,
+    "title": "Visión del ahogado",
+    "author": "Juan José Millás",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 371,
+    "title": "Las guerras",
+    "author": "Timothy Findley",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 372,
+    "title": "Delta de Venus",
+    "author": "Anaïs Nin",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 373,
+    "title": "Una bandada de zarapitos",
+    "author": "Maarten't Hart",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 374,
+    "title": "Parejas transeúntes",
+    "author": "Botho Strauss",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 375,
+    "title": "Colina negra",
+    "author": "Bruce Chatwin",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 376,
+    "title": "La historia particular de un muchacho",
+    "author": "Edmund White",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 377,
+    "title": "Aborto en la escuela",
+    "author": "Kathy Acker",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 378,
+    "title": "La fábrica de las avispas",
+    "author": "Iain Banks",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 379,
+    "title": "The Busconductor Hines",
+    "author": "James Kelman",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 380,
+    "title": "El héroe de las mansardas de Mansard",
+    "author": "Álvaro Pombo",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 381,
+    "title": "El desfile del amor",
+    "author": "Sergio Pitol",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 382,
+    "title": "La orilla oscura",
+    "author": "José María Merino",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 383,
+    "title": "Anagramas",
+    "author": "Lorrie Moore",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 384,
+    "title": "La caja negra",
+    "author": "Amos Oz",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 385,
+    "title": "El último mundo",
+    "author": "Christoph Ransmayr",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 386,
+    "title": "Como agua para chocolate",
+    "author": "Laura Esquivel",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 387,
+    "title": "Líneas de sombra",
+    "author": "Amitav Ghosh",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 388,
+    "title": "The Laws",
+    "author": "Connie Palmen",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 389,
+    "title": "Typical",
+    "author": "Padgett Powell",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 390,
+    "title": "Una infancia en Marraquech",
+    "author": "Esther Freud",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 391,
+    "title": "El aprendiz de carnicero",
+    "author": "Patrick McCabe",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 392,
+    "title": "Vidas de santos",
+    "author": "Rodrigo Fresán",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 393,
+    "title": "Tonto muerto bastardo e invisible",
+    "author": "Juan José Millás",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 394,
+    "title": "The End of the Story",
+    "author": "Lydia Davis",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 395,
+    "title": "Fuegos con limón",
+    "author": "Fernando Aramburu",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 396,
+    "title": "Margot en de Engelen",
+    "author": "Kristien Hemmerechts",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 397,
+    "title": "The talk of the town",
+    "author": "Ardal O'Hanlon",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 398,
+    "title": "Imposturas",
+    "author": "John Banville",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 399,
+    "title": "El primer amor de Casanova",
+    "author": "Arthur Japin",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 400,
+    "title": "Erec y Enide",
+    "author": "Manuel Vázquez Montalbán",
+    "pages": 256,
+    "read": false
+  },
+  {
+    "rank": 401,
+    "title": "Los restos del día",
+    "author": "Kazuo Ishiguro",
+    "pages": 258,
+    "read": false
+  },
+  {
+    "rank": 402,
+    "title": "Despachos de guerra",
+    "author": "Michael Herr",
+    "pages": 260,
+    "read": false
+  },
+  {
+    "rank": 403,
+    "title": "Si una noche de invierno un viajero",
+    "author": "Italo Calvino",
+    "pages": 260,
+    "read": false
+  },
+  {
+    "rank": 404,
+    "title": "El perfume",
+    "author": "Patrick Süskind",
+    "pages": 263,
+    "read": false
+  },
+  {
+    "rank": 405,
+    "title": "Neuromante",
+    "author": "William Gibson",
+    "pages": 271,
+    "read": false
+  },
+  {
+    "rank": 406,
+    "title": "La letra escarlata",
+    "author": "Nathaniel Hawthorne",
+    "pages": 272,
+    "read": false
+  },
+  {
+    "rank": 407,
+    "title": "El retrato de Dorian Gray",
+    "author": "Oscar Wilde",
+    "pages": 272,
+    "read": false
+  },
+  {
+    "rank": 408,
+    "title": "Autobiografía de Alice B. Toklas",
+    "author": "Gertrude Stein",
+    "pages": 272,
+    "read": false
+  },
+  {
+    "rank": 409,
+    "title": "El poder y la gloria",
+    "author": "Graham Greene",
+    "pages": 272,
+    "read": false
+  },
+  {
+    "rank": 410,
+    "title": "El día de los trífidos",
+    "author": "John Wyndham",
+    "pages": 272,
+    "read": false
+  },
+  {
+    "rank": 411,
+    "title": "Las partículas elementales",
+    "author": "Michel Houellebecq",
+    "pages": 272,
+    "read": false
+  },
+  {
+    "rank": 412,
+    "title": "Plataforma",
+    "author": "Michel Houellebecq",
+    "pages": 272,
+    "read": false
+  },
+  {
+    "rank": 413,
+    "title": "Todo está iluminado",
+    "author": "Jonathan Safran Foer",
+    "pages": 276,
+    "read": false
+  },
+  {
+    "rank": 414,
+    "title": "El guardián entre el centeno",
+    "author": "J.D. Salinger",
+    "pages": 277,
+    "read": false
+  },
+  {
+    "rank": 415,
+    "title": "Love in Excess",
+    "author": "Eliza Haywood",
+    "pages": 280,
+    "read": false
+  },
+  {
+    "rank": 416,
+    "title": "Frankenstein",
+    "author": "Mary Wollstonecraft Shelley",
+    "pages": 280,
+    "read": false
+  },
+  {
+    "rank": 417,
+    "title": "Metamorfosis o El asno de oro",
+    "author": "Lucio Apuleyo",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 418,
+    "title": "Las afinidades electivas",
+    "author": "Johann Wolfgang von Goethe",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 419,
+    "title": "Los niños del agua",
+    "author": "Charles Kingsley",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 420,
+    "title": "Leyendas",
+    "author": "Gustavo Adolfo Bécquer",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 421,
+    "title": "La vuelta al mundo en 80 días",
+    "author": "Jules Verne",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 422,
+    "title": "La habitación roja",
+    "author": "August Strindberg",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 423,
+    "title": "Los Malavoglia",
+    "author": "Giovanni Verga",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 424,
+    "title": "Noticias de ninguna parte",
+    "author": "William Morris",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 425,
+    "title": "Los tigres de Mompracem",
+    "author": "Emilio Salgari",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 426,
+    "title": "Impresiones de África",
+    "author": "Raymond Roussel",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 427,
+    "title": "Niebla",
+    "author": "Miguel de Unamuno",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 428,
+    "title": "Kokoro",
+    "author": "Natsume Soseki",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 429,
+    "title": "Retrato del artista adolescente",
+    "author": "James Joyce",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 430,
+    "title": "The Professor's House",
+    "author": "Willa Cather",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 431,
+    "title": "Ser americanos",
+    "author": "Gertrude Stein",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 432,
+    "title": "Los siete locos",
+    "author": "Roberto Arlt",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 433,
+    "title": "Imán",
+    "author": "Ramón J. Sender",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 434,
+    "title": "Un mundo feliz",
+    "author": "Aldous Huxley",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 435,
+    "title": "Cristo se detuvo en Éboli",
+    "author": "Carlo Levi",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 436,
+    "title": "La flauta de la lata",
+    "author": "Gabrielle Roy",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 437,
+    "title": "Nada",
+    "author": "Carmen Laforet",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 438,
+    "title": "El señor presidente",
+    "author": "Miguel Ángel Asturias",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 439,
+    "title": "El callejón de los milagros",
+    "author": "Naguib Mahfuz",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 440,
+    "title": "El laberinto de la soledad",
+    "author": "Octavio Paz",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 441,
+    "title": "Los inocentes",
+    "author": "Hermann Broch",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 442,
+    "title": "Los pasos perdidos",
+    "author": "Alejo Carpentier",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 443,
+    "title": "Bajo la red",
+    "author": "Iris Murdoch",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 444,
+    "title": "El talento de Mr. Ripley",
+    "author": "Patricia Highsmith",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 445,
+    "title": "La parranda",
+    "author": "Eduardo Blanco Amor",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 446,
+    "title": "Billar a las nueve y media",
+    "author": "Heinrich Böll",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 447,
+    "title": "El mago de Lublin",
+    "author": "Isaac Bashevis Singer",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 448,
+    "title": "Tiempo de silencio",
+    "author": "Luis Martín Santos",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 449,
+    "title": "La campana de cristal",
+    "author": "Sylvia Plath",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 450,
+    "title": "Manon des Sources",
+    "author": "Marcel Pagnol",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 451,
+    "title": "Arrow of God",
+    "author": "Chinua Achebe",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 452,
+    "title": "Gracias por el fuego",
+    "author": "Mario Benedetti",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 453,
+    "title": "Todo lo que crece tiene que converger",
+    "author": "Flannery O'Connor",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 454,
+    "title": "Cinco horas con Mario",
+    "author": "Miguel Delibes",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 455,
+    "title": "Miramar",
+    "author": "Naguib Mahfuz",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 456,
+    "title": "El lamento de Portnoy",
+    "author": "Philip Roth",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 457,
+    "title": "El día que murió Marilyn",
+    "author": "Terenci Moix",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 458,
+    "title": "Kôkotsu no hito",
+    "author": "Sawako Ariyoshi",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 459,
+    "title": "Sin destino",
+    "author": "Imre Kertész",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 460,
+    "title": "El otoño del patriarca",
+    "author": "Gabriel García Márquez",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 461,
+    "title": "Cutter and Bone",
+    "author": "Newton Thornburg",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 462,
+    "title": "El beso de la mujer araña",
+    "author": "Manuel Puig",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 463,
+    "title": "A Bend in the River",
+    "author": "V.S. Naipul",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 464,
+    "title": "El libro de la risa y el olvido",
+    "author": "Milan Kundera",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 465,
+    "title": "La pianista",
+    "author": "Elfriede Jelinek",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 466,
+    "title": "Waylander",
+    "author": "David Gemmell",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 467,
+    "title": "La mitad del hombre es la mujer",
+    "author": "Zhang Xianliang",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 468,
+    "title": "La sombra de Hawksmoor",
+    "author": "Peter Ackroyd",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 469,
+    "title": "Beatus ille",
+    "author": "Antonio Muñoz Molina",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 470,
+    "title": "Cigarettes",
+    "author": "Harry Matthews",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 471,
+    "title": "Camino de sirga",
+    "author": "Jesús Moncada",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 472,
+    "title": "La biblioteca de la piscina",
+    "author": "Allan Hollinghurst",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 473,
+    "title": "Los paraísos ciegos",
+    "author": "Duong Thu Huong",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 474,
+    "title": "Gimmick!",
+    "author": "Joost Zwagerman",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 475,
+    "title": "El buda de los suburbios",
+    "author": "Hanif Kureishi",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 476,
+    "title": "Memorias de una hija de perra",
+    "author": "Pavlos Matesis",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 477,
+    "title": "Vértigo",
+    "author": "W.G. Sebald",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 478,
+    "title": "Corazón tan blanco",
+    "author": "Javier Marías",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 479,
+    "title": "En posesión del secreto de la alegría",
+    "author": "Alice Walker",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 480,
+    "title": "Las pirañas",
+    "author": "Miguel Sánchez-Ostiz",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 481,
+    "title": "Tic-tac",
+    "author": "Suso de Toro",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 482,
+    "title": "Gracias por la propina",
+    "author": "Ferran Torrent",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 483,
+    "title": "Las últimas sombras",
+    "author": "Anjel Lertxundi",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 484,
+    "title": "Los pasos incontables",
+    "author": "Ramón Saizarbitoria",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 485,
+    "title": "El meñique de Buda",
+    "author": "Victor Pelevin",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 486,
+    "title": "Ghost Road",
+    "author": "Pat Barker",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 487,
+    "title": "La locura de Foucault",
+    "author": "Patricia Dunker",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 488,
+    "title": "Bella en las tinieblas",
+    "author": "Manuel de Lope",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 489,
+    "title": "El día de todas las almas",
+    "author": "Cees Nooteboom",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 490,
+    "title": "Los románticos",
+    "author": "Pankaj Mishra",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 491,
+    "title": "El museo de la rendición incondicional",
+    "author": "Dubravka Ugresić",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 492,
+    "title": "An Obedient Father",
+    "author": "Akhil Sharma",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 493,
+    "title": "El hombre de ninguna parte",
+    "author": "Aleksandar Hemon",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 494,
+    "title": "La dama número trece",
+    "author": "José Carlos Somoza",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 495,
+    "title": "Boken om Blanche och Marie",
+    "author": "Olov Enquist",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 496,
+    "title": "Sábado",
+    "author": "Ian McEwan",
+    "pages": 288,
+    "read": false
+  },
+  {
+    "rank": 497,
+    "title": "The Namesake",
+    "author": "Jhumpa Lahiri",
+    "pages": 291,
+    "read": false
+  },
+  {
+    "rank": 498,
+    "title": "Asfixia",
+    "author": "Chuck Palahniuk",
+    "pages": 293,
+    "read": false
+  },
+  {
+    "rank": 499,
+    "title": "El color púrpura",
+    "author": "Alice Walker",
+    "pages": 295,
+    "read": false
+  },
+  {
+    "rank": 500,
+    "title": "Sin novedad en el frente",
+    "author": "Erich Maria Remarque",
+    "pages": 296,
+    "read": false
+  },
+  {
+    "rank": 501,
+    "title": "Bajo la piel",
+    "author": "Michel Faber",
+    "pages": 296,
+    "read": false
+  },
+  {
+    "rank": 502,
+    "title": "2001: Una odisea del espacio",
+    "author": "Arthur C. Clarke",
+    "pages": 297,
+    "read": false
+  },
+  {
+    "rank": 503,
+    "title": "Austerlitz",
+    "author": "W.G. Sebald",
+    "pages": 298,
+    "read": false
+  },
+  {
+    "rank": 504,
+    "title": "Addis Aläm",
+    "author": "Heruy Walda Sellase",
+    "pages": 300,
+    "read": false
+  },
+  {
+    "rank": 505,
+    "title": "La isla del tesoro",
+    "author": "Robert Louis Stevenson",
+    "pages": 304,
+    "read": false
+  },
+  {
+    "rank": 506,
+    "title": "Decadencia y caída",
+    "author": "Evelyn Waugh",
+    "pages": 304,
+    "read": false
+  },
+  {
+    "rank": 507,
+    "title": "Las olas",
+    "author": "Virginia Woolf",
+    "pages": 304,
+    "read": false
+  },
+  {
+    "rank": 508,
+    "title": "¡Venciste Rosemary!",
+    "author": "George Orwell",
+    "pages": 304,
+    "read": false
+  },
+  {
+    "rank": 509,
+    "title": "Cuna de gato",
+    "author": "Kurt Vonnegut Jr.",
+    "pages": 304,
+    "read": false
+  },
+  {
+    "rank": 510,
+    "title": "Yo sé por qué canta el pájaro enjaulado",
+    "author": "Maya Angelou",
+    "pages": 304,
+    "read": false
+  },
+  {
+    "rank": 511,
+    "title": "A Dry White Season",
+    "author": "André Brink",
+    "pages": 304,
+    "read": false
+  },
+  {
+    "rank": 512,
+    "title": "Vergüenza",
+    "author": "Salman Rushdie",
+    "pages": 304,
+    "read": false
+  },
+  {
+    "rank": 513,
+    "title": "Dirk Gently: Agencia de investigaciones holísticas",
+    "author": "Douglas Adams",
+    "pages": 304,
+    "read": false
+  },
+  {
+    "rank": 514,
+    "title": "Cómo conquistar Hollywood",
+    "author": "Elmore Leonard",
+    "pages": 304,
+    "read": false
+  },
+  {
+    "rank": 515,
+    "title": "Asesinos sin rostro",
+    "author": "Henning Mankell",
+    "pages": 304,
+    "read": false
+  },
+  {
+    "rank": 516,
+    "title": "Die Vermessung der Welt",
+    "author": "Daniel Kehlmann",
+    "pages": 304,
+    "read": false
+  },
+  {
+    "rank": 517,
+    "title": "El Hobbit",
+    "author": "J.R.R. Tolkien",
+    "pages": 310,
+    "read": false
+  },
+  {
+    "rank": 518,
+    "title": "El cuento de la criada",
+    "author": "Margaret Atwood",
+    "pages": 311,
+    "read": false
+  },
+  {
+    "rank": 519,
+    "title": "La trilogía de Nueva York",
+    "author": "Paul Auster",
+    "pages": 314,
+    "read": false
+  },
+  {
+    "rank": 520,
+    "title": "Trópico de Cáncer",
+    "author": "Henry Miller",
+    "pages": 318,
+    "read": false
+  },
+  {
+    "rank": 521,
+    "title": "Vida de Pi",
+    "author": "Yann Martel",
+    "pages": 319,
+    "read": false
+  },
+  {
+    "rank": 522,
+    "title": "La Celestina",
+    "author": "Fernando de Rojas",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 523,
+    "title": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 524,
+    "title": "Los viajes de Gulliver",
+    "author": "Jonathan Swift",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 525,
+    "title": "Jacques el fatalista",
+    "author": "Denis Diderot",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 526,
+    "title": "Papá Goriot",
+    "author": "Honoré de Balzac",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 527,
+    "title": "Camera Obscura",
+    "author": "Hilderbrand",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 528,
+    "title": "Facundo",
+    "author": "Domingo Faustino Sarmiento",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 529,
+    "title": "La casa de las siete torres",
+    "author": "Nathaniel Hawthorne",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 530,
+    "title": "Viaje al centro de la Tierra",
+    "author": "Jules Verne",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 531,
+    "title": "Las criaturas del espejo",
+    "author": "Sheridan Le Fanu",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 532,
+    "title": "Una vida",
+    "author": "Guy de Maupassant",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 533,
+    "title": "Allá abajo",
+    "author": "Joris-Karl Huysmans",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 534,
+    "title": "Las aventuras de Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 535,
+    "title": "Lo que Maisie sabía",
+    "author": "Henry James",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 536,
+    "title": "Some Experiences of an Irish R. M.",
+    "author": "E. Somerville y V. M. Ross",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 537,
+    "title": "Cañas y barro",
+    "author": "Vicente Blasco Ibáñez",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 538,
+    "title": "El enigma de las arenas",
+    "author": "Erskine Childers",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 539,
+    "title": "El agente secreto",
+    "author": "Joseph Conrad",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 540,
+    "title": "El árbol de la ciencia",
+    "author": "Pío Baroja",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 541,
+    "title": "Tempestades de acero",
+    "author": "Ernst Jünger",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 542,
+    "title": "Belarmino y Apolonio",
+    "author": "Ramón Pérez de Ayala",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 543,
+    "title": "La habitación enorme",
+    "author": "E. E. Cummings",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 544,
+    "title": "El sombrero verde",
+    "author": "Michael Arlen",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 545,
+    "title": "América",
+    "author": "Franz Kafka",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 546,
+    "title": "Suave es la noche",
+    "author": "F. Scott Fitzgerald",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 547,
+    "title": "Ferdydurke",
+    "author": "Witold Gombrowicz",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 548,
+    "title": "La peste",
+    "author": "Albert Camus",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 549,
+    "title": "Llanto por la tierra amada",
+    "author": "Alan Paton",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 550,
+    "title": "La colmena",
+    "author": "Camilo José Cela",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 551,
+    "title": "Memorias de Adriano",
+    "author": "Marguerite Yourcenar",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 552,
+    "title": "Ve y dilo en la montaña",
+    "author": "James Baldwin",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 553,
+    "title": "En la carretera",
+    "author": "Jack Kerouac",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 554,
+    "title": "La campana",
+    "author": "Iris Murdoch",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 555,
+    "title": "Corre Conejo",
+    "author": "John Updike",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 556,
+    "title": "Pálido fuego",
+    "author": "Vladimir Nabokov",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 557,
+    "title": "Alguien voló sobre el nido del cuco",
+    "author": "Ken Kesey",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 558,
+    "title": "Z",
+    "author": "Vassilis Vassilikos",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 559,
+    "title": "Eva Trout",
+    "author": "Elizabeth Bowen",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 560,
+    "title": "Volverás a Región",
+    "author": "Juan Benet",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 561,
+    "title": "El secuestro",
+    "author": "Georges Perec",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 562,
+    "title": "Hasta no verte Jesús mío",
+    "author": "Elena Poniatowska",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 563,
+    "title": "El libro de Daniel",
+    "author": "E.L. Doctorow",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 564,
+    "title": "G.",
+    "author": "John Berger",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 565,
+    "title": "El cónsul honorario",
+    "author": "Graham Greene",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 566,
+    "title": "Ragtime",
+    "author": "E.L. Doctorow",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 567,
+    "title": "Silvio en El Rosedal",
+    "author": "Julio Ramón Ribeyro",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 568,
+    "title": "La insoportable levedad del ser",
+    "author": "Milan Kundera",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 569,
+    "title": "El lenguaje perdido de las grúas",
+    "author": "David Leavitt",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 570,
+    "title": "Melancolía de la resistencia",
+    "author": "László Krasznahorkai",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 571,
+    "title": "El palacio de la luna",
+    "author": "Paul Auster",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 572,
+    "title": "El metro de platino iridiado",
+    "author": "Álvaro Pombo",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 573,
+    "title": "Arcadia",
+    "author": "Jim Crace",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 574,
+    "title": "El paciente inglés",
+    "author": "Michael Ondaatje",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 575,
+    "title": "La vida es un caravasar",
+    "author": "Emine Sevgi Özdamar",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 576,
+    "title": "Piezas fugitivas",
+    "author": "Anne Michaels",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 577,
+    "title": "Small Remedies",
+    "author": "Shashi Deshpande",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 578,
+    "title": "The Heart of Redness",
+    "author": "Zakes Mda",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 579,
+    "title": "No te muevas",
+    "author": "Margaret Mazzantini",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 580,
+    "title": "Al morir Don Quijote",
+    "author": "Andrés Trapiello",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "rank": 581,
+    "title": "Beloved",
+    "author": "Toni Morrison",
+    "pages": 324,
+    "read": false
+  },
+  {
+    "rank": 582,
+    "title": "Ruido de fondo",
+    "author": "Don DeLillo",
+    "pages": 326,
+    "read": false
+  },
+  {
+    "rank": 583,
+    "title": "1984",
+    "author": "George Orwell",
+    "pages": 328,
+    "read": false
+  },
+  {
+    "rank": 584,
+    "title": "Orlando",
+    "author": "Virginia Woolf",
+    "pages": 336,
+    "read": false
+  },
+  {
+    "rank": 585,
+    "title": "Adiós a las armas",
+    "author": "Ernest Hemingway",
+    "pages": 336,
+    "read": false
+  },
+  {
+    "rank": 586,
+    "title": "La condición humana",
+    "author": "André Malraux",
+    "pages": 336,
+    "read": false
+  },
+  {
+    "rank": 587,
+    "title": "The Heat of the Day",
+    "author": "Elizabeth Bowen",
+    "pages": 336,
+    "read": false
+  },
+  {
+    "rank": 588,
+    "title": "El mar de las Sirtes",
+    "author": "Julien Gracq",
+    "pages": 336,
+    "read": false
+  },
+  {
+    "rank": 589,
+    "title": "Lolita",
+    "author": "Vladimir Nabokov",
+    "pages": 336,
+    "read": false
+  },
+  {
+    "rank": 590,
+    "title": "Matar un ruiseñor",
+    "author": "Harper Lee",
+    "pages": 336,
+    "read": false
+  },
+  {
+    "rank": 591,
+    "title": "La muerte de Artemio Cruz",
+    "author": "Carlos Fuentes",
+    "pages": 336,
+    "read": false
+  },
+  {
+    "rank": 592,
+    "title": "Todas las almas",
+    "author": "Javier Marías",
+    "pages": 336,
+    "read": false
+  },
+  {
+    "rank": 593,
+    "title": "La canción de Salomón",
+    "author": "Toni Morrison",
+    "pages": 337,
+    "read": false
+  },
+  {
+    "rank": 594,
+    "title": "Atando cabos",
+    "author": "E. Annie Proulx",
+    "pages": 337,
+    "read": false
+  },
+  {
+    "rank": 595,
+    "title": "El Dios de las pequeñas cosas",
+    "author": "Arundhati Roy",
+    "pages": 340,
+    "read": false
+  },
+  {
+    "rank": 596,
+    "title": "A sangre fría",
+    "author": "Truman Capote",
+    "pages": 343,
+    "read": false
+  },
+  {
+    "rank": 597,
+    "title": "Antes que anochezca",
+    "author": "Reinaldo Arenas",
+    "pages": 343,
+    "read": false
+  },
+  {
+    "rank": 598,
+    "title": "Trainspotting",
+    "author": "Irvine Welsh",
+    "pages": 344,
+    "read": false
+  },
+  {
+    "rank": 599,
+    "title": "Moll Flanders",
+    "author": "Daniel Defoe",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 600,
+    "title": "Joseph Andrews",
+    "author": "Henry Fielding",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 601,
+    "title": "Sentido y sensibilidad",
+    "author": "Jane Austen",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 602,
+    "title": "Walden",
+    "author": "Henry David Thoreau",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 603,
+    "title": "Max Havelaar",
+    "author": "Multatuli",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 604,
+    "title": "María",
+    "author": "Jorge Isaacs",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 605,
+    "title": "Los pazos de Ulloa",
+    "author": "Emilia Pardo Bazán",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 606,
+    "title": "Effi Briest",
+    "author": "Theodor Fontane",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 607,
+    "title": "Adriano VII",
+    "author": "Frederick Rolfe",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 608,
+    "title": "La madre",
+    "author": "Máximo Gorki",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 609,
+    "title": "Tarr",
+    "author": "Wyndham Lewis",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 610,
+    "title": "La edad de la inocencia",
+    "author": "Edith Wharton",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 611,
+    "title": "Los Artamónov",
+    "author": "Máximo Gorki",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 612,
+    "title": "El castillo",
+    "author": "Franz Kafka",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 613,
+    "title": "Los indiferentes",
+    "author": "Alberto Moravia",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 614,
+    "title": "La marcha Radetzky",
+    "author": "Joseph Roth",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 615,
+    "title": "Muerte de un agente de publicidad",
+    "author": "Dorothy L. Sayers",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 616,
+    "title": "La guerra de las salamandras",
+    "author": "Karel Capek",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 617,
+    "title": "Los vivos y los muertos",
+    "author": "Patrick White",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 618,
+    "title": "Retorno a Brideshead",
+    "author": "Evelyn Waugh",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 619,
+    "title": "El hombre del brazo de oro",
+    "author": "Nelson Algren",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 620,
+    "title": "El siglo de las luces",
+    "author": "Alejo Carpentier",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 621,
+    "title": "Un animal dotado de razón",
+    "author": "Robert Merle",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 622,
+    "title": "Ponche de ácido lisérgico",
+    "author": "Tom Wolfe",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 623,
+    "title": "Tienda de los milagros",
+    "author": "Jorge Amado",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 624,
+    "title": "Ágata ojo de gato",
+    "author": "José Manuel Caballero Bonald",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 625,
+    "title": "Si ahora no ¿cuándo?",
+    "author": "Primo Levi",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 626,
+    "title": "Noches en el circo",
+    "author": "Angela Carter",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 627,
+    "title": "El imperio del sol",
+    "author": "J.G. Ballard",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 628,
+    "title": "Diccionario jázaro",
+    "author": "Milorad Pavić",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 629,
+    "title": "La historia de Simon",
+    "author": "Marianne Fredriksson",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 630,
+    "title": "Los viejos demonios",
+    "author": "Kingsley Amis",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 631,
+    "title": "El enigma de la llegada",
+    "author": "V.S. Naipaul",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 632,
+    "title": "Stone Junction",
+    "author": "Jim Dodge",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 633,
+    "title": "Cekani na tmu cekani na svetlo",
+    "author": "Ivan Klima",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 634,
+    "title": "Una comedia ligera",
+    "author": "Eduardo Mendoza",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 635,
+    "title": "Trilogía sucia de La Habana",
+    "author": "Pedro Juan Gutiérrez",
+    "pages": 352,
+    "read": false
+  },
+  {
+    "rank": 636,
+    "title": "La mancha humana",
+    "author": "Philip Roth",
+    "pages": 361,
+    "read": false
+  },
+  {
+    "rank": 637,
+    "title": "Las aventuras de Huckleberry Finn",
+    "author": "Mark Twain",
+    "pages": 366,
+    "read": false
+  },
+  {
+    "rank": 638,
+    "title": "Kim",
+    "author": "Rudyard Kipling",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 639,
+    "title": "Cuento de viejas",
+    "author": "Arnold Bennett",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 640,
+    "title": "Regreso a Howards End",
+    "author": "E. M. Forster",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 641,
+    "title": "Pasaje a la India",
+    "author": "E. M. Forster",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 642,
+    "title": "El amante de lady Chatterley",
+    "author": "D.H. Lawrence",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 643,
+    "title": "El filo de la navaja",
+    "author": "William Somerset Maugham",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 644,
+    "title": "Un puente sobre el Drina",
+    "author": "Ivo Andric",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 645,
+    "title": "Alexis Zorba",
+    "author": "Nikos Kazantzakis",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 646,
+    "title": "Una ciudad como Alice",
+    "author": "Nevil Shute",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 647,
+    "title": "El halcón",
+    "author": "Yasar Kemal",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 648,
+    "title": "El Jarama",
+    "author": "Rafael Sánchez Ferlosio",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 649,
+    "title": "La hija de Burger",
+    "author": "Nadine Gordimer",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 650,
+    "title": "Memorial del convento",
+    "author": "José Saramago",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 651,
+    "title": "El país del agua",
+    "author": "Graham Swift",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 652,
+    "title": "El amor en los tiempos del cólera",
+    "author": "Gabriel García Márquez",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 653,
+    "title": "Historia del cerco de Lisboa",
+    "author": "José Saramago",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 654,
+    "title": "Juegos de la edad tardía",
+    "author": "Luis Landero",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 655,
+    "title": "La memoria de las piedras",
+    "author": "Carol Shields",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 656,
+    "title": "Jack Maggs",
+    "author": "Peter Carey",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 657,
+    "title": "El maestro. Retrato del novelista adulto",
+    "author": "Colm Tóibín",
+    "pages": 368,
+    "read": false
+  },
+  {
+    "rank": 658,
+    "title": "Entrevista con el vampiro",
+    "author": "Anne Rice",
+    "pages": 371,
+    "read": false
+  },
+  {
+    "rank": 659,
+    "title": "Expiación",
+    "author": "Ian McEwan",
+    "pages": 371,
+    "read": false
+  },
+  {
+    "rank": 660,
+    "title": "El largo adiós",
+    "author": "Raymond Chandler",
+    "pages": 379,
+    "read": false
+  },
+  {
+    "rank": 661,
+    "title": "Rebeca",
+    "author": "Daphne du Maurier",
+    "pages": 380,
+    "read": false
+  },
+  {
+    "rank": 662,
+    "title": "Humphry Clinker",
+    "author": "Tobias George Smollett",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 663,
+    "title": "Opiniones del gato Murr",
+    "author": "E.T.A. Hoffmann",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 664,
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 665,
+    "title": "El amigo manso",
+    "author": "Benito Pérez Galdós",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 666,
+    "title": "Mario el epicúreo",
+    "author": "Walter Pater",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 667,
+    "title": "Misericordia",
+    "author": "Benito Pérez Galdós",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 668,
+    "title": "La casa de la alegría",
+    "author": "Edith Wharton",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 669,
+    "title": "El infierno",
+    "author": "Henri Barbusse",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 670,
+    "title": "El fuego",
+    "author": "Henri Barbusse",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 671,
+    "title": "Les cloches de Bâle",
+    "author": "Louis Aragon",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 672,
+    "title": "¡Absalón Absalón!",
+    "author": "William Faulkner",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 673,
+    "title": "El hombre perdido",
+    "author": "Ramón Gómez de la Serna",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 674,
+    "title": "El caso Tulaév",
+    "author": "Victor Serge",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 675,
+    "title": "El hombre rebelde",
+    "author": "Albert Camus",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 676,
+    "title": "La promesa del alba",
+    "author": "Romain Gary",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 677,
+    "title": "El gran momento de Mary Tribune",
+    "author": "Juan García Hortelano",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 678,
+    "title": "La esposa americana",
+    "author": "Mario Soldati",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 679,
+    "title": "El río de la luna",
+    "author": "José María Guelbenzu",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 680,
+    "title": "El oratorio de Navidad",
+    "author": "Göran Tunström",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 681,
+    "title": "El Griffón",
+    "author": "Alfredo Conde",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 682,
+    "title": "La dalia negra",
+    "author": "James Ellroy",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 683,
+    "title": "El camino radiante",
+    "author": "Margaret Drabble",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 684,
+    "title": "Obabakoak",
+    "author": "Bernardo Atxaga",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 685,
+    "title": "The Triple Mirror of the Self",
+    "author": "Zulfikar Ghose",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 686,
+    "title": "How Late it Was How Late",
+    "author": "James Kelman",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 687,
+    "title": "Plenilunio",
+    "author": "Antonio Muñoz Molina",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 688,
+    "title": "Kurosufaia (Crossfire)",
+    "author": "Miyabe Miyuki",
+    "pages": 384,
+    "read": false
+  },
+  {
+    "rank": 689,
+    "title": "La conjura contra América",
+    "author": "Philip Roth",
+    "pages": 391,
+    "read": false
+  },
+  {
+    "rank": 690,
+    "title": "American Psycho",
+    "author": "Bret Easton Ellis",
+    "pages": 399,
+    "read": false
+  },
+  {
+    "rank": 691,
+    "title": "Libro de Buen Amor",
+    "author": "Juan Ruiz \"Arcipreste de Hita\"",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 692,
+    "title": "Los Lusíadas",
+    "author": "Luis Vaz de Camoes",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 693,
+    "title": "La Dorotea",
+    "author": "Lope de Vega",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 694,
+    "title": "Las amistades peligrosas",
+    "author": "Pierre Choderlos de Laclos",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 695,
+    "title": "Las ciento veinte jornadas de Sodoma",
+    "author": "Marqués de Sade",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 696,
+    "title": "Anton Reiser",
+    "author": "Karl Philipp Moritz",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 697,
+    "title": "Justine",
+    "author": "Marqués de Sade",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 698,
+    "title": "El último mohicano",
+    "author": "James Fenimore Cooper",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 699,
+    "title": "El león de Flandes",
+    "author": "Hendrik Conscience",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 700,
+    "title": "Bel-Ami",
+    "author": "Guy de Maupassant",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 701,
+    "title": "Sotileza",
+    "author": "José María de Pereda",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 702,
+    "title": "Bajo el yugo",
+    "author": "Iván Vazov",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 703,
+    "title": "El placer",
+    "author": "Gabriele D'Annunzio",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 704,
+    "title": "La febre d'or",
+    "author": "Narcís Oller",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 705,
+    "title": "La bestia humana",
+    "author": "Émile Zola",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 706,
+    "title": "El Stechlin",
+    "author": "Theodor Fontane",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 707,
+    "title": "Sucesos memorables de un enfermo de los nervios",
+    "author": "Daniel P. Schreber",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 708,
+    "title": "Sonatas",
+    "author": "Ramón María del Valle-Inclán",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 709,
+    "title": "Cuentos",
+    "author": "Horacio Quiroga",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 710,
+    "title": "Babbitt",
+    "author": "Sinclair Lewis",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 711,
+    "title": "Doña Bárbara",
+    "author": "Rómulo Gallegos",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 712,
+    "title": "Los nueve sastres",
+    "author": "Dorothy L. Sayers",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 713,
+    "title": "Memorias de África",
+    "author": "Isak Dinesen",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 714,
+    "title": "Alamut",
+    "author": "Vladimir Bartol",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 715,
+    "title": "Na rubu pameti",
+    "author": "Miroslav Krleza",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 716,
+    "title": "Bajo el volcán",
+    "author": "Malcolm Lowry",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 717,
+    "title": "Miedo a volar",
+    "author": "Erica Jong",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 718,
+    "title": "Shikasta",
+    "author": "Doris Lessing",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 719,
+    "title": "La lista de Schindler",
+    "author": "Thomas Keneally",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 720,
+    "title": "Dinero",
+    "author": "Martin Amis",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 721,
+    "title": "Gemelas",
+    "author": "Tessa de Loo",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 722,
+    "title": "Santa Evita",
+    "author": "Tomás Eloy Martínez",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 723,
+    "title": "Todo cuanto amé",
+    "author": "Siri Hustvedt",
+    "pages": 400,
+    "read": false
+  },
+  {
+    "rank": 724,
+    "title": "La conjura de los necios",
+    "author": "John Kennedy Toole",
+    "pages": 405,
+    "read": false
+  },
+  {
+    "rank": 725,
+    "title": "Cumbres borrascosas",
+    "author": "Emily Brontë",
+    "pages": 416,
+    "read": false
+  },
+  {
+    "rank": 726,
+    "title": "La jungla",
+    "author": "Upton Sinclair",
+    "pages": 416,
+    "read": false
+  },
+  {
+    "rank": 727,
+    "title": "Summer Will Show",
+    "author": "Sylvia Townsend Warner",
+    "pages": 416,
+    "read": false
+  },
+  {
+    "rank": 728,
+    "title": "Herzog",
+    "author": "Saul Bellow",
+    "pages": 416,
+    "read": false
+  },
+  {
+    "rank": 729,
+    "title": "Últimas tardes con Teresa",
+    "author": "Juan Marsé",
+    "pages": 416,
+    "read": false
+  },
+  {
+    "rank": 730,
+    "title": "La verdad sobre el caso Savolta",
+    "author": "Eduardo Mendoza",
+    "pages": 416,
+    "read": false
+  },
+  {
+    "rank": 731,
+    "title": "Muestra de infancia",
+    "author": "Christa Wolf",
+    "pages": 416,
+    "read": false
+  },
+  {
+    "rank": 732,
+    "title": "La partida del profesor Martens",
+    "author": "Jean Kross",
+    "pages": 416,
+    "read": false
+  },
+  {
+    "rank": 733,
+    "title": "El año de la muerte de Ricardo Reis",
+    "author": "José Saramago",
+    "pages": 416,
+    "read": false
+  },
+  {
+    "rank": 734,
+    "title": "Watchmen",
+    "author": "Alan Moore & Dave Gibbons",
+    "pages": 416,
+    "read": false
+  },
+  {
+    "rank": 735,
+    "title": "Indigo",
+    "author": "Marina Warner",
+    "pages": 416,
+    "read": false
+  },
+  {
+    "rank": 736,
+    "title": "Cien años de soledad",
+    "author": "Gabriel García Márquez",
+    "pages": 417,
+    "read": false
+  },
+  {
+    "rank": 737,
+    "title": "Orgullo y prejuicio",
+    "author": "Jane Austen",
+    "pages": 432,
+    "read": false
+  },
+  {
+    "rank": 738,
+    "title": "Almas muertas",
+    "author": "Nicolái Gógol",
+    "pages": 432,
+    "read": false
+  },
+  {
+    "rank": 739,
+    "title": "Gabriela clavo y canela",
+    "author": "Jorge Amado",
+    "pages": 432,
+    "read": false
+  },
+  {
+    "rank": 740,
+    "title": "Contacto",
+    "author": "Carl Sagan",
+    "pages": 432,
+    "read": false
+  },
+  {
+    "rank": 741,
+    "title": "Oscar y Lucinda",
+    "author": "Peter Carey",
+    "pages": 432,
+    "read": false
+  },
+  {
+    "rank": 742,
+    "title": "La casa de los espíritus",
+    "author": "Isabel Allende",
+    "pages": 433,
+    "read": false
+  },
+  {
+    "rank": 743,
+    "title": "La mandolina del capitán Corelli",
+    "author": "Louis de Bernières",
+    "pages": 437,
+    "read": false
+  },
+  {
+    "rank": 744,
+    "title": "Drop City",
+    "author": "T. Coraghessan Boyle",
+    "pages": 444,
+    "read": false
+  },
+  {
+    "rank": 745,
+    "title": "El resplandor",
+    "author": "Stephen King",
+    "pages": 447,
+    "read": false
+  },
+  {
+    "rank": 746,
+    "title": "Las aventuras de Caleb Williams",
+    "author": "William Godwin",
+    "pages": 448,
+    "read": false
+  },
+  {
+    "rank": 747,
+    "title": "El monje",
+    "author": "M.G. Lewis",
+    "pages": 448,
+    "read": false
+  },
+  {
+    "rank": 748,
+    "title": "Bendición de la tierra",
+    "author": "Knut Hamsun",
+    "pages": 448,
+    "read": false
+  },
+  {
+    "rank": 749,
+    "title": "Los monederos falsos",
+    "author": "André Gide",
+    "pages": 448,
+    "read": false
+  },
+  {
+    "rank": 750,
+    "title": "El pozo de la soledad",
+    "author": "Radclyffe Hall",
+    "pages": 448,
+    "read": false
+  },
+  {
+    "rank": 751,
+    "title": "Vida privada",
+    "author": "Josep Maria de Sagarra",
+    "pages": 448,
+    "read": false
+  },
+  {
+    "rank": 752,
+    "title": "Crónica de Travnik",
+    "author": "Ivo Andric",
+    "pages": 448,
+    "read": false
+  },
+  {
+    "rank": 753,
+    "title": "Señas de identidad",
+    "author": "Juan Goytisolo",
+    "pages": 448,
+    "read": false
+  },
+  {
+    "rank": 754,
+    "title": "El padrino",
+    "author": "Mario Puzo",
+    "pages": 448,
+    "read": false
+  },
+  {
+    "rank": 755,
+    "title": "Retrato de grupo con señora",
+    "author": "Heinrich Böll",
+    "pages": 448,
+    "read": false
+  },
+  {
+    "rank": 756,
+    "title": "Si te dicen que caí",
+    "author": "Juan Marsé",
+    "pages": 448,
+    "read": false
+  },
+  {
+    "rank": 757,
+    "title": "Icaria Icaria",
+    "author": "Xavier Benguerel",
+    "pages": 448,
+    "read": false
+  },
+  {
+    "rank": 758,
+    "title": "Saúl ante Samuel",
+    "author": "Juan Benet",
+    "pages": 448,
+    "read": false
+  },
+  {
+    "rank": 759,
+    "title": "Sestra",
+    "author": "Jáchym Topol",
+    "pages": 448,
+    "read": false
+  },
+  {
+    "rank": 760,
+    "title": "El hereje",
+    "author": "Miguel Delibes",
+    "pages": 448,
+    "read": false
+  },
+  {
+    "rank": 761,
+    "title": "Los aires difíciles",
+    "author": "Almudena Grandes",
+    "pages": 448,
+    "read": false
+  },
+  {
+    "rank": 762,
+    "title": "Trampa 22",
+    "author": "Joseph Heller",
+    "pages": 453,
+    "read": false
+  },
+  {
+    "rank": 763,
+    "title": "La señorita Smila y su especial percepción de la nieve",
+    "author": "Peter Hoeg",
+    "pages": 453,
+    "read": false
+  },
+  {
+    "rank": 764,
+    "title": "Lejos del mundanal ruido",
+    "author": "Thomas Hardy",
+    "pages": 464,
+    "read": false
+  },
+  {
+    "rank": 765,
+    "title": "Nana",
+    "author": "Émile Zola",
+    "pages": 464,
+    "read": false
+  },
+  {
+    "rank": 766,
+    "title": "Auto de fe",
+    "author": "Elias Canetti",
+    "pages": 464,
+    "read": false
+  },
+  {
+    "rank": 767,
+    "title": "Las uvas de la ira",
+    "author": "John Steinbeck",
+    "pages": 464,
+    "read": false
+  },
+  {
+    "rank": 768,
+    "title": "La ciudad y los perros",
+    "author": "Mario Vargas Llosa",
+    "pages": 464,
+    "read": false
+  },
+  {
+    "rank": 769,
+    "title": "El fin del mundo",
+    "author": "T. Coraghessan Boyle",
+    "pages": 464,
+    "read": false
+  },
+  {
+    "rank": 770,
+    "title": "El club Dumas",
+    "author": "Arturo Pérez-Reverte",
+    "pages": 464,
+    "read": false
+  },
+  {
+    "rank": 771,
+    "title": "Dientes blancos",
+    "author": "Zadie Smith",
+    "pages": 464,
+    "read": false
+  },
+  {
+    "rank": 772,
+    "title": "Alias Grace",
+    "author": "Margaret Atwood",
+    "pages": 468,
+    "read": false
+  },
+  {
+    "rank": 773,
+    "title": "Libro de la vida",
+    "author": "Teresa de Jesús",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 774,
+    "title": "Los trabajos de Persiles y Segismunda",
+    "author": "Miguel de Cervantes Saavedra",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 775,
+    "title": "Evelina",
+    "author": "Fanny Burney",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 776,
+    "title": "Mansfield Park",
+    "author": "Jane Austen",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 777,
+    "title": "Norte y sur",
+    "author": "Elizabeth Gaskell",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 778,
+    "title": "La educación sentimental",
+    "author": "Gustave Flaubert",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 779,
+    "title": "El crimen del padre Amaro",
+    "author": "José Maria Eça de Queirós",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 780,
+    "title": "Eline Vere",
+    "author": "Louis Couperus",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 781,
+    "title": "Tess la de los d'Uberville",
+    "author": "Thomas Hardy",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 782,
+    "title": "La saga de Gösta Berling",
+    "author": "Selma Lagerlöf",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 783,
+    "title": "Historia de Cristo",
+    "author": "Giovanni Papini",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 784,
+    "title": "La conciencia de Zeno",
+    "author": "Italo Svevo",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 785,
+    "title": "Llámalo sueño",
+    "author": "Henry Roth",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 786,
+    "title": "La caña que piensa",
+    "author": "Rebecca West",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 787,
+    "title": "Ciego en Gaza",
+    "author": "Aldous Huxley",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 788,
+    "title": "Por quien doblan las campanas",
+    "author": "Ernest Hemingway",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 789,
+    "title": "El mundo es ancho y ajeno",
+    "author": "Ciro Alegría",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 790,
+    "title": "La muerte de Virgilio",
+    "author": "Hermann Broch",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 791,
+    "title": "Gormenghast",
+    "author": "Mervyn Peake",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 792,
+    "title": "El maestro y Margarita",
+    "author": "Mijaíl Bulgakov",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 793,
+    "title": "No Laughing Matter",
+    "author": "Angus Wilson",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 794,
+    "title": "Lección de alemán",
+    "author": "Siegfried Lenz",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 795,
+    "title": "La mujer del teniente francés",
+    "author": "John Fowles",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 796,
+    "title": "Un mundo para Julius",
+    "author": "Alfredo Bryce Echenique",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 797,
+    "title": "Yo el Supremo",
+    "author": "Augusto Roa Bastos",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 798,
+    "title": "La gente de Smiley",
+    "author": "John Le Carré",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 799,
+    "title": "La fuente de la edad",
+    "author": "Luis Mateo Díez",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 800,
+    "title": "Extinción: un desmoronamiento",
+    "author": "Thomas Bernhard",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 801,
+    "title": "Campos de Londres",
+    "author": "Martin Amis",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 802,
+    "title": "En busca de Klingsor",
+    "author": "Jorge Volpi",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 803,
+    "title": "El testigo",
+    "author": "Juan Villoro",
+    "pages": 480,
+    "read": false
+  },
+  {
+    "rank": 804,
+    "title": "Drácula",
+    "author": "Bram Stoker",
+    "pages": 488,
+    "read": false
+  },
+  {
+    "rank": 805,
+    "title": "El tío Silas",
+    "author": "Sheridan Le Fanu",
+    "pages": 496,
+    "read": false
+  },
+  {
+    "rank": 806,
+    "title": "La última tentación de Cristo",
+    "author": "Nikos Kazantzakis",
+    "pages": 496,
+    "read": false
+  },
+  {
+    "rank": 807,
+    "title": "Hijo nativo",
+    "author": "Richard Wright",
+    "pages": 504,
+    "read": false
+  },
+  {
+    "rank": 808,
+    "title": "Birdsong",
+    "author": "Sebastian Faulks",
+    "pages": 504,
+    "read": false
+  },
+  {
+    "rank": 809,
+    "title": "Viaje al fin de la noche",
+    "author": "Louis-Ferdinand Céline",
+    "pages": 505,
+    "read": false
+  },
+  {
+    "rank": 810,
+    "title": "Kafka en la orilla",
+    "author": "Haruki Murakami",
+    "pages": 505,
+    "read": false
+  },
+  {
+    "rank": 811,
+    "title": "Emilio o de la educación",
+    "author": "Jean-Jacques Rousseau",
+    "pages": 512,
+    "read": false
+  },
+  {
+    "rank": 812,
+    "title": "Emma",
+    "author": "Jane Austen",
+    "pages": 512,
+    "read": false
+  },
+  {
+    "rank": 813,
+    "title": "Ivanhoe",
+    "author": "Sir Walter Scott",
+    "pages": 512,
+    "read": false
+  },
+  {
+    "rank": 814,
+    "title": "La inquilina de Wildfell Hall",
+    "author": "Anne Brontë",
+    "pages": 512,
+    "read": false
+  },
+  {
+    "rank": 815,
+    "title": "La taberna",
+    "author": "Émile Zola",
+    "pages": 512,
+    "read": false
+  },
+  {
+    "rank": 816,
+    "title": "New Grub Street",
+    "author": "George Gissing",
+    "pages": 512,
+    "read": false
+  },
+  {
+    "rank": 817,
+    "title": "Jude el oscuro",
+    "author": "Thomas Hardy",
+    "pages": 512,
+    "read": false
+  },
+  {
+    "rank": 818,
+    "title": "Los embajadores",
+    "author": "Henry James",
+    "pages": 512,
+    "read": false
+  },
+  {
+    "rank": 819,
+    "title": "Hijos y amantes",
+    "author": "D. H. Lawrence",
+    "pages": 512,
+    "read": false
+  },
+  {
+    "rank": 820,
+    "title": "El arco iris",
+    "author": "D. H. Lawrence",
+    "pages": 512,
+    "read": false
+  },
+  {
+    "rank": 821,
+    "title": "El regreso de Conejo",
+    "author": "John Updike",
+    "pages": 512,
+    "read": false
+  },
+  {
+    "rank": 822,
+    "title": "El legado de Humboldt",
+    "author": "Saul Bellow",
+    "pages": 512,
+    "read": false
+  },
+  {
+    "rank": 823,
+    "title": "Conejo es rico",
+    "author": "John Updike",
+    "pages": 512,
+    "read": false
+  },
+  {
+    "rank": 824,
+    "title": "The Crow Road",
+    "author": "Iain Banks",
+    "pages": 512,
+    "read": false
+  },
+  {
+    "rank": 825,
+    "title": "La Fiesta del Chivo",
+    "author": "Mario Vargas Llosa",
+    "pages": 518,
+    "read": false
+  },
+  {
+    "rank": 826,
+    "title": "Cisnes salvajes",
+    "author": "Jung Chang",
+    "pages": 524,
+    "read": false
+  },
+  {
+    "rank": 827,
+    "title": "Pamela",
+    "author": "Samuel Richardson",
+    "pages": 528,
+    "read": false
+  },
+  {
+    "rank": 828,
+    "title": "La piedra lunar",
+    "author": "Wilkie Collins",
+    "pages": 528,
+    "read": false
+  },
+  {
+    "rank": 829,
+    "title": "Mujercitas",
+    "author": "Louisa May Alcott",
+    "pages": 528,
+    "read": false
+  },
+  {
+    "rank": 830,
+    "title": "El ángel que nos mira",
+    "author": "Thomas Wolfe",
+    "pages": 528,
+    "read": false
+  },
+  {
+    "rank": 831,
+    "title": "Gente independiente",
+    "author": "Halldór Laxness",
+    "pages": 528,
+    "read": false
+  },
+  {
+    "rank": 832,
+    "title": "Sobre héroes y tumbas",
+    "author": "Ernesto Sábato",
+    "pages": 528,
+    "read": false
+  },
+  {
+    "rank": 833,
+    "title": "El mar el mar",
+    "author": "Iris Murdoch",
+    "pages": 528,
+    "read": false
+  },
+  {
+    "rank": 834,
+    "title": "Rompenubes",
+    "author": "Russell Banks",
+    "pages": 528,
+    "read": false
+  },
+  {
+    "rank": 835,
+    "title": "El atlas de las nubes",
+    "author": "David Mitchell",
+    "pages": 528,
+    "read": false
+  },
+  {
+    "rank": 836,
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "pages": 532,
+    "read": false
+  },
+  {
+    "rank": 837,
+    "title": "El nombre de la rosa",
+    "author": "Umberto Eco",
+    "pages": 536,
+    "read": false
+  },
+  {
+    "rank": 838,
+    "title": "Rob Roy",
+    "author": "Sir Walter Scott",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 839,
+    "title": "El jorobado de Nôtre Dame",
+    "author": "Victor Hugo",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 840,
+    "title": "Oliver Twist",
+    "author": "Charles Dickens",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 841,
+    "title": "La cabaña del Tío Tom",
+    "author": "Harriet Beecher Stowe",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 842,
+    "title": "El molino de Floss",
+    "author": "George Eliot",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 843,
+    "title": "Grandes esperanzas",
+    "author": "Charles Dickens",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 844,
+    "title": "Ben-Hur",
+    "author": "Lew Wallace",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 845,
+    "title": "Nuestra Carrie",
+    "author": "Theodore Dreiser",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 846,
+    "title": "La disputa por el sargento Grischa",
+    "author": "Arnold Zweig",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 847,
+    "title": "The Man Who Loved Children",
+    "author": "Christina Stead",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 848,
+    "title": "Doktor Faustus",
+    "author": "Thomas Mann",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 849,
+    "title": "Tierra ignota",
+    "author": "Patrick White",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 850,
+    "title": "Tres tristes tigres",
+    "author": "Guillermo Cabrera Infante",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 851,
+    "title": "La casa de Jampol",
+    "author": "Isaac Bashevis Singer",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 852,
+    "title": "them",
+    "author": "Joyce Carol Oates",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 853,
+    "title": "El rey de los alisos",
+    "author": "Michel Tournier",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 854,
+    "title": "Los convidados de piedra",
+    "author": "Jorge Edwards",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 855,
+    "title": "Libro del desasosiego",
+    "author": "Fernando Pessoa",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 856,
+    "title": "La pena de Bélgica",
+    "author": "Hugo Claus",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 857,
+    "title": "Larva. Babel de una noche de San Juan",
+    "author": "Julián Ríos",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 858,
+    "title": "Fado Alexandrino",
+    "author": "António Lobo Antunes",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 859,
+    "title": "Los inconsolables",
+    "author": "Kazuo Ishiguro",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 860,
+    "title": "La Biblia de barro",
+    "author": "Julia Navarro",
+    "pages": 544,
+    "read": false
+  },
+  {
+    "rank": 861,
+    "title": "El juego de los abalorios",
+    "author": "Hermann Hesse",
+    "pages": 558,
+    "read": false
+  },
+  {
+    "rank": 862,
+    "title": "El secreto",
+    "author": "Donna Tartt",
+    "pages": 559,
+    "read": false
+  },
+  {
+    "rank": 863,
+    "title": "Novelas ejemplares",
+    "author": "Miguel de Cervantes Saavedra",
+    "pages": 560,
+    "read": false
+  },
+  {
+    "rank": 864,
+    "title": "Los años de aprendizaje de Wilhelm Meister",
+    "author": "Johann Wolfgang von Goethe",
+    "pages": 560,
+    "read": false
+  },
+  {
+    "rank": 865,
+    "title": "Oblomov",
+    "author": "Iván Goncharov",
+    "pages": 560,
+    "read": false
+  },
+  {
+    "rank": 866,
+    "title": "Nostromo",
+    "author": "Joseph Conrad",
+    "pages": 560,
+    "read": false
+  },
+  {
+    "rank": 867,
+    "title": "Pabellón de cáncer",
+    "author": "Alexandr Solzhenitsin",
+    "pages": 560,
+    "read": false
+  },
+  {
+    "rank": 868,
+    "title": "La guerra del fin del mundo",
+    "author": "Mario Vargas Llosa",
+    "pages": 560,
+    "read": false
+  },
+  {
+    "rank": 869,
+    "title": "Lanark una vida en cuatro libros",
+    "author": "Alasdair Gray",
+    "pages": 560,
+    "read": false
+  },
+  {
+    "rank": 870,
+    "title": "Las normas de la casa de la sidra",
+    "author": "John Irving",
+    "pages": 560,
+    "read": false
+  },
+  {
+    "rank": 871,
+    "title": "La biblia envenenada",
+    "author": "Barbara Kingsolver",
+    "pages": 560,
+    "read": false
+  },
+  {
+    "rank": 872,
+    "title": "Los versos satánicos",
+    "author": "Salman Rushdie",
+    "pages": 561,
+    "read": false
+  },
+  {
+    "rank": 873,
+    "title": "La sombra del viento",
+    "author": "Carlos Ruiz Zafón",
+    "pages": 565,
+    "read": false
+  },
+  {
+    "rank": 874,
+    "title": "Las correcciones",
+    "author": "Jonathan Franzen",
+    "pages": 568,
+    "read": false
+  },
+  {
+    "rank": 875,
+    "title": "Rojo y negro",
+    "author": "Stendhal",
+    "pages": 576,
+    "read": false
+  },
+  {
+    "rank": 876,
+    "title": "La cartuja de Parma",
+    "author": "Stendhal",
+    "pages": 576,
+    "read": false
+  },
+  {
+    "rank": 877,
+    "title": "Adam Bede",
+    "author": "George Eliot",
+    "pages": 576,
+    "read": false
+  },
+  {
+    "rank": 878,
+    "title": "Los mandarines",
+    "author": "Simone de Beauvoir",
+    "pages": 576,
+    "read": false
+  },
+  {
+    "rank": 879,
+    "title": "Escuela de mandarines",
+    "author": "Miguel Espinosa",
+    "pages": 576,
+    "read": false
+  },
+  {
+    "rank": 880,
+    "title": "El ingeniero de almas",
+    "author": "Josef Škvorecký",
+    "pages": 576,
+    "read": false
+  },
+  {
+    "rank": 881,
+    "title": "The Singapore Grip",
+    "author": "J.G. Farrell",
+    "pages": 576,
+    "read": false
+  },
+  {
+    "rank": 882,
+    "title": "At Swim Two Boys",
+    "author": "Jamie O'Neill",
+    "pages": 576,
+    "read": false
+  },
+  {
+    "rank": 883,
+    "title": "El hombre invisible",
+    "author": "Ralph Ellison",
+    "pages": 581,
+    "read": false
+  },
+  {
+    "rank": 884,
+    "title": "Germinal",
+    "author": "Émile Zola",
+    "pages": 592,
+    "read": false
+  },
+  {
+    "rank": 885,
+    "title": "El doctor Zhivago",
+    "author": "Boris Pasternak",
+    "pages": 592,
+    "read": false
+  },
+  {
+    "rank": 886,
+    "title": "El tambor de hojalata",
+    "author": "Günter Grass",
+    "pages": 592,
+    "read": false
+  },
+  {
+    "rank": 887,
+    "title": "Rayuela",
+    "author": "Julio Cortázar",
+    "pages": 600,
+    "read": false
+  },
+  {
+    "rank": 888,
+    "title": "La vida: instrucciones de uso",
+    "author": "Georges Perec",
+    "pages": 600,
+    "read": false
+  },
+  {
+    "rank": 889,
+    "title": "Crónica del pájaro que da cuerda al mundo",
+    "author": "Haruki Murakami",
+    "pages": 607,
+    "read": false
+  },
+  {
+    "rank": 890,
+    "title": "Quo Vadis",
+    "author": "Henryk Sienkiewicz",
+    "pages": 608,
+    "read": false
+  },
+  {
+    "rank": 891,
+    "title": "Paradiso",
+    "author": "José Lezama Lima",
+    "pages": 608,
+    "read": false
+  },
+  {
+    "rank": 892,
+    "title": "Ada o el ardor",
+    "author": "Vladimir Nabokov",
+    "pages": 608,
+    "read": false
+  },
+  {
+    "rank": 893,
+    "title": "Los detectives salvajes",
+    "author": "Roberto Bolaño",
+    "pages": 609,
+    "read": false
+  },
+  {
+    "rank": 894,
+    "title": "Gran Sertón: veredas",
+    "author": "João Guimarães Rosa",
+    "pages": 624,
+    "read": false
+  },
+  {
+    "rank": 895,
+    "title": "Un perfecto equilibrio",
+    "author": "Rohinton Mistry",
+    "pages": 624,
+    "read": false
+  },
+  {
+    "rank": 896,
+    "title": "Las confesiones",
+    "author": "Jean-Jacques Rousseau",
+    "pages": 640,
+    "read": false
+  },
+  {
+    "rank": 897,
+    "title": "Las estrellas de Eger",
+    "author": "Géza Gárdonyi",
+    "pages": 640,
+    "read": false
+  },
+  {
+    "rank": 898,
+    "title": "Nuestro padre San Daniel y El obispo leproso",
+    "author": "Gabriel Miró",
+    "pages": 640,
+    "read": false
+  },
+  {
+    "rank": 899,
+    "title": "Berlin Alexanderplatz",
+    "author": "Alfred Döblin",
+    "pages": 640,
+    "read": false
+  },
+  {
+    "rank": 900,
+    "title": "Los monos de imitación de Dios",
+    "author": "Wyndham Lewis",
+    "pages": 640,
+    "read": false
+  },
+  {
+    "rank": 901,
+    "title": "Camelot",
+    "author": "T.H. White",
+    "pages": 640,
+    "read": false
+  },
+  {
+    "rank": 902,
+    "title": "Halbzeit",
+    "author": "Martin Walser",
+    "pages": 640,
+    "read": false
+  },
+  {
+    "rank": 903,
+    "title": "Bomarzo",
+    "author": "Manuel Mujica Láinez",
+    "pages": 640,
+    "read": false
+  },
+  {
+    "rank": 904,
+    "title": "V.",
+    "author": "Thomas Pynchon",
+    "pages": 640,
+    "read": false
+  },
+  {
+    "rank": 905,
+    "title": "A veces un gran impulso",
+    "author": "Ken Kesey",
+    "pages": 640,
+    "read": false
+  },
+  {
+    "rank": 906,
+    "title": "Oración por Owen",
+    "author": "John Irving",
+    "pages": 640,
+    "read": false
+  },
+  {
+    "rank": 907,
+    "title": "Empresas y tribulaciones de Maqroll el Gaviero",
+    "author": "Álvaro Mutis",
+    "pages": 640,
+    "read": false
+  },
+  {
+    "rank": 908,
+    "title": "El péndulo de Foucault",
+    "author": "Umberto Eco",
+    "pages": 641,
+    "read": false
+  },
+  {
+    "rank": 909,
+    "title": "Hijos de la medianoche",
+    "author": "Salman Rushdie",
+    "pages": 647,
+    "read": false
+  },
+  {
+    "rank": 910,
+    "title": "El idiota",
+    "author": "Fiódor Dostoievski",
+    "pages": 656,
+    "read": false
+  },
+  {
+    "rank": 911,
+    "title": "Retrato de una dama",
+    "author": "Henry James",
+    "pages": 656,
+    "read": false
+  },
+  {
+    "rank": 912,
+    "title": "Crimen y castigo",
+    "author": "Fiódor Dostoievski",
+    "pages": 671,
+    "read": false
+  },
+  {
+    "rank": 913,
+    "title": "Los misterios de Udolfo",
+    "author": "Ann Radcliffe",
+    "pages": 672,
+    "read": false
+  },
+  {
+    "rank": 914,
+    "title": "La mujer de blanco",
+    "author": "Wilkie Collins",
+    "pages": 672,
+    "read": false
+  },
+  {
+    "rank": 915,
+    "title": "Testament of Youth",
+    "author": "Vera Brittain",
+    "pages": 672,
+    "read": false
+  },
+  {
+    "rank": 916,
+    "title": "El cuaderno dorado",
+    "author": "Doris Lessing",
+    "pages": 672,
+    "read": false
+  },
+  {
+    "rank": 917,
+    "title": "El primer círculo",
+    "author": "Alexandr Solzhenitsin",
+    "pages": 672,
+    "read": false
+  },
+  {
+    "rank": 918,
+    "title": "Noticias del Imperio",
+    "author": "Fernando del Paso",
+    "pages": 672,
+    "read": false
+  },
+  {
+    "rank": 919,
+    "title": "Eilande",
+    "author": "Dan Sleigh",
+    "pages": 672,
+    "read": false
+  },
+  {
+    "rank": 920,
+    "title": "Melmoth El Errabundo",
+    "author": "Charles Robert Maturin",
+    "pages": 688,
+    "read": false
+  },
+  {
+    "rank": 921,
+    "title": "Historia verdadera de la conquista de la Nueva España",
+    "author": "Bernal Díaz del Castillo",
+    "pages": 700,
+    "read": false
+  },
+  {
+    "rank": 922,
+    "title": "Los tres mosqueteros",
+    "author": "Alejandro Dumas",
+    "pages": 704,
+    "read": false
+  },
+  {
+    "rank": 923,
+    "title": "Faraón",
+    "author": "Boleslaw Prus",
+    "pages": 704,
+    "read": false
+  },
+  {
+    "rank": 924,
+    "title": "Servidumbre humana",
+    "author": "William Somerset Maugham",
+    "pages": 704,
+    "read": false
+  },
+  {
+    "rank": 925,
+    "title": "Adán Buenosayres",
+    "author": "Leopoldo Marechal",
+    "pages": 704,
+    "read": false
+  },
+  {
+    "rank": 926,
+    "title": "House of Leaves",
+    "author": "Mark Z. Danielewski",
+    "pages": 709,
+    "read": false
+  },
+  {
+    "rank": 927,
+    "title": "Tristram Shandy",
+    "author": "Laurence Sterne",
+    "pages": 720,
+    "read": false
+  },
+  {
+    "rank": 928,
+    "title": "Los novios",
+    "author": "Alessandro Manzoni",
+    "pages": 720,
+    "read": false
+  },
+  {
+    "rank": 929,
+    "title": "Las ilusiones perdidas",
+    "author": "Honoré de Balzac",
+    "pages": 720,
+    "read": false
+  },
+  {
+    "rank": 930,
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "pages": 720,
+    "read": false
+  },
+  {
+    "rank": 931,
+    "title": "La montaña mágica",
+    "author": "Thomas Mann",
+    "pages": 720,
+    "read": false
+  },
+  {
+    "rank": 932,
+    "title": "Incierta gloria",
+    "author": "Joan Sales",
+    "pages": 720,
+    "read": false
+  },
+  {
+    "rank": 933,
+    "title": "Ulises",
+    "author": "James Joyce",
+    "pages": 730,
+    "read": false
+  },
+  {
+    "rank": 934,
+    "title": "Los Buddenbrook",
+    "author": "Thomas Mann",
+    "pages": 736,
+    "read": false
+  },
+  {
+    "rank": 935,
+    "title": "El descubrimiento del cielo",
+    "author": "Harry Mulisch",
+    "pages": 736,
+    "read": false
+  },
+  {
+    "rank": 936,
+    "title": "Las aventuras del valeroso soldado Schvejk",
+    "author": "Jaroslav Hasek",
+    "pages": 752,
+    "read": false
+  },
+  {
+    "rank": 937,
+    "title": "La feria de las vanidades",
+    "author": "Tom Wolfe",
+    "pages": 752,
+    "read": false
+  },
+  {
+    "rank": 938,
+    "title": "Blonde",
+    "author": "Joyce Carol Oates",
+    "pages": 752,
+    "read": false
+  },
+  {
+    "rank": 939,
+    "title": "Julia o la nueva Eloísa",
+    "author": "Jean-Jacques Rousseau",
+    "pages": 768,
+    "read": false
+  },
+  {
+    "rank": 940,
+    "title": "Phineas Finn",
+    "author": "Anthony Trollope",
+    "pages": 768,
+    "read": false
+  },
+  {
+    "rank": 941,
+    "title": "Los demonios",
+    "author": "Fiódor Dostoievski",
+    "pages": 768,
+    "read": false
+  },
+  {
+    "rank": 942,
+    "title": "Giles Goat-Boy",
+    "author": "John Barth",
+    "pages": 768,
+    "read": false
+  },
+  {
+    "rank": 943,
+    "title": "El arco iris de gravedad",
+    "author": "Thomas Pynchon",
+    "pages": 776,
+    "read": false
+  },
+  {
+    "rank": 944,
+    "title": "Amadís de Gaula",
+    "author": "Garci Rodríguez de Montalvo",
+    "pages": 800,
+    "read": false
+  },
+  {
+    "rank": 945,
+    "title": "Guzmán de Alfarache",
+    "author": "Mateo Alemán",
+    "pages": 800,
+    "read": false
+  },
+  {
+    "rank": 946,
+    "title": "El Criticón",
+    "author": "Baltasar Gracián",
+    "pages": 800,
+    "read": false
+  },
+  {
+    "rank": 947,
+    "title": "Peregrine Pickle",
+    "author": "Tobias George Smollett",
+    "pages": 800,
+    "read": false
+  },
+  {
+    "rank": 948,
+    "title": "La feria de las vanidades",
+    "author": "William Makepeace Thackeray",
+    "pages": 800,
+    "read": false
+  },
+  {
+    "rank": 949,
+    "title": "Enrique el verde",
+    "author": "Gottfried Keller",
+    "pages": 800,
+    "read": false
+  },
+  {
+    "rank": 950,
+    "title": "Der Nachsommer",
+    "author": "Adalbert Stifter",
+    "pages": 800,
+    "read": false
+  },
+  {
+    "rank": 951,
+    "title": "El ruedo ibérico",
+    "author": "Ramón María del Valle-Inclán",
+    "pages": 800,
+    "read": false
+  },
+  {
+    "rank": 952,
+    "title": "Crónica del alba",
+    "author": "Ramón J. Sender",
+    "pages": 800,
+    "read": false
+  },
+  {
+    "rank": 953,
+    "title": "El cuaderno gris",
+    "author": "Josep Pla",
+    "pages": 800,
+    "read": false
+  },
+  {
+    "rank": 954,
+    "title": "El jardín de los siete crepúsculos",
+    "author": "Miquel de Palol",
+    "pages": 800,
+    "read": false
+  },
+  {
+    "rank": 955,
+    "title": "Submundo",
+    "author": "Don DeLillo",
+    "pages": 827,
+    "read": false
+  },
+  {
+    "rank": 956,
+    "title": "Parade's End",
+    "author": "Ford Madox Ford",
+    "pages": 836,
+    "read": false
+  },
+  {
+    "rank": 957,
+    "title": "Armonía celestial",
+    "author": "Péter Esterházy",
+    "pages": 848,
+    "read": false
+  },
+  {
+    "rank": 958,
+    "title": "Ana Karenina",
+    "author": "Lev Tolstói",
+    "pages": 864,
+    "read": false
+  },
+  {
+    "rank": 959,
+    "title": "Bella del señor",
+    "author": "Albert Cohen",
+    "pages": 864,
+    "read": false
+  },
+  {
+    "rank": 960,
+    "title": "Middlemarch",
+    "author": "George Eliot",
+    "pages": 880,
+    "read": false
+  },
+  {
+    "rank": 961,
+    "title": "David Copperfield",
+    "author": "Charles Dickens",
+    "pages": 882,
+    "read": false
+  },
+  {
+    "rank": 962,
+    "title": "Camila",
+    "author": "Fanny Burney",
+    "pages": 912,
+    "read": false
+  },
+  {
+    "rank": 963,
+    "title": "Gargantúa y Pantagruel",
+    "author": "François Rabelais",
+    "pages": 960,
+    "read": false
+  },
+  {
+    "rank": 964,
+    "title": "Octubre octubre",
+    "author": "José Luis Sampedro",
+    "pages": 960,
+    "read": false
+  },
+  {
+    "rank": 965,
+    "title": "Tom Jones",
+    "author": "Henry Fielding",
+    "pages": 976,
+    "read": false
+  },
+  {
+    "rank": 966,
+    "title": "La regenta",
+    "author": "Leopoldo Alas \"Clarín\"",
+    "pages": 976,
+    "read": false
+  },
+  {
+    "rank": 967,
+    "title": "Los reconocimientos",
+    "author": "William Gaddis",
+    "pages": 976,
+    "read": false
+  },
+  {
+    "rank": 968,
+    "title": "Las mil y una noches",
+    "author": "Anónimo",
+    "pages": 1000,
+    "read": false
+  },
+  {
+    "rank": 969,
+    "title": "La casa desolada",
+    "author": "Charles Dickens",
+    "pages": 1017,
+    "read": false
+  },
+  {
+    "rank": 970,
+    "title": "Lo que el viento se llevó",
+    "author": "Margaret Mitchell",
+    "pages": 1037,
+    "read": false
+  },
+  {
+    "rank": 971,
+    "title": "Don Quijote de la Mancha",
+    "author": "Miguel de Cervantes Saavedra",
+    "pages": 1056,
+    "read": false
+  },
+  {
+    "rank": 972,
+    "title": "La broma infinita",
+    "author": "David Foster Wallace",
+    "pages": 1079,
+    "read": false
+  },
+  {
+    "rank": 973,
+    "title": "Fortunata y Jacinta",
+    "author": "Benito Pérez Galdós",
+    "pages": 1080,
+    "read": false
+  },
+  {
+    "rank": 974,
+    "title": "2666",
+    "author": "Roberto Bolaño",
+    "pages": 1128,
+    "read": false
+  },
+  {
+    "rank": 975,
+    "title": "Cristina hija de Lavrans",
+    "author": "Sigrid Undset",
+    "pages": 1168,
+    "read": false
+  },
+  {
+    "rank": 976,
+    "title": "Tirant lo Blanc",
+    "author": "Joanot Martorell",
+    "pages": 1200,
+    "read": false
+  },
+  {
+    "rank": 977,
+    "title": "Los gozos y las sombras",
+    "author": "Gonzalo Torrente Ballester",
+    "pages": 1200,
+    "read": false
+  },
+  {
+    "rank": 978,
+    "title": "Los pasos contados",
+    "author": "Corpus Barga",
+    "pages": 1200,
+    "read": false
+  },
+  {
+    "rank": 979,
+    "title": "El mar de la fertilidad",
+    "author": "Yukio Mishima",
+    "pages": 1200,
+    "read": false
+  },
+  {
+    "rank": 980,
+    "title": "La historia de Genji",
+    "author": "Murasaki Shikibu",
+    "pages": 1216,
+    "read": false
+  },
+  {
+    "rank": 981,
+    "title": "El Señor de los Anillos",
+    "author": "J.R.R. Tolkien",
+    "pages": 1216,
+    "read": false
+  },
+  {
+    "rank": 982,
+    "title": "El conde de Montecristo",
+    "author": "Alejandro Dumas",
+    "pages": 1276,
+    "read": false
+  },
+  {
+    "rank": 983,
+    "title": "U.S.A.",
+    "author": "John Dos Passos",
+    "pages": 1312,
+    "read": false
+  },
+  {
+    "rank": 984,
+    "title": "Guerra y paz",
+    "author": "Lev Tolstói",
+    "pages": 1440,
+    "read": false
+  },
+  {
+    "rank": 985,
+    "title": "Los miserables",
+    "author": "Victor Hugo",
+    "pages": 1488,
+    "read": false
+  },
+  {
+    "rank": 986,
+    "title": "Un buen partido",
+    "author": "Vikram Seth",
+    "pages": 1488,
+    "read": false
+  },
+  {
+    "rank": 987,
+    "title": "José y sus hermanos",
+    "author": "Thomas Mann",
+    "pages": 1492,
+    "read": false
+  },
+  {
+    "rank": 988,
+    "title": "Tu rostro mañana",
+    "author": "Javier Marías",
+    "pages": 1500,
+    "read": false
+  },
+  {
+    "rank": 989,
+    "title": "Clarissa",
+    "author": "Samuel Richardson",
+    "pages": 1536,
+    "read": false
+  },
+  {
+    "rank": 990,
+    "title": "Antagonía",
+    "author": "Luis Goytisolo",
+    "pages": 1600,
+    "read": false
+  },
+  {
+    "rank": 991,
+    "title": "El hombre sin atributos",
+    "author": "Robert Musil",
+    "pages": 1774,
+    "read": false
+  },
+  {
+    "rank": 992,
+    "title": "Jahrestage",
+    "author": "Uwe Johnson",
+    "pages": 1920,
+    "read": false
+  },
+  {
+    "rank": 993,
+    "title": "La saga de los Forsyte",
+    "author": "John Galsworthy",
+    "pages": 2000,
+    "read": false
+  },
+  {
+    "rank": 994,
+    "title": "Memorias de un hombre de acción",
+    "author": "Pío Baroja",
+    "pages": 2000,
+    "read": false
+  },
+  {
+    "rank": 995,
+    "title": "Pilgrimage",
+    "author": "Dorothy Richardson",
+    "pages": 2000,
+    "read": false
+  },
+  {
+    "rank": 996,
+    "title": "Taebaek Sanmaek",
+    "author": "Jo Jung-rae",
+    "pages": 2000,
+    "read": false
+  },
+  {
+    "rank": 997,
+    "title": "Sueño en el pabellón rojo",
+    "author": "Cao Xueqin",
+    "pages": 2500,
+    "read": false
+  },
+  {
+    "rank": 998,
+    "title": "El laberinto mágico",
+    "author": "Max Aub",
+    "pages": 2500,
+    "read": false
+  },
+  {
+    "rank": 999,
+    "title": "Una danza para la música del tiempo",
+    "author": "Anthony Powell",
+    "pages": 3000,
+    "read": false
+  },
+  {
+    "rank": 1000,
+    "title": "En busca del tiempo perdido",
+    "author": "Marcel Proust",
+    "pages": 4215,
+    "read": false
+  },
+  {
+    "rank": 1001,
+    "title": "Episodios nacionales",
+    "author": "Benito Pérez Galdós",
+    "pages": 4600,
+    "read": false
+  }
+]
