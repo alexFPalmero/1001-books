@@ -365,6 +365,95 @@
             flex-shrink: 0;
         }
 
+        /* Generic item styles for all categories */
+        .item-list {
+            list-style: none;
+        }
+
+        .item {
+            background: #222226;
+            border-radius: 6px;
+            padding: 0.5rem 0.8rem;
+            margin-bottom: 0.25rem;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            transition: all 0.15s ease;
+            border-left: 3px solid #404048;
+        }
+
+        .item:hover {
+            background: #2a2a2e;
+            border-left-color: #606068;
+        }
+
+        .item.done {
+            background: #1e2420;
+            border-left-color: #4a7c50;
+        }
+
+        .item.done .item-title {
+            color: #6a9a70;
+        }
+
+        .item.done .item-meta {
+            color: #5a8a60;
+        }
+
+        .item-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .item-title {
+            font-family: 'IBM Plex Serif', serif;
+            font-size: 0.9rem;
+            color: #e8e8e8;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+
+        .item-meta {
+            color: #888888;
+            font-size: 0.75rem;
+        }
+
+        .item-rank {
+            color: #606060;
+            font-weight: 500;
+            font-size: 0.75rem;
+            min-width: 36px;
+            text-align: right;
+            flex-shrink: 0;
+        }
+
+        .item-badge {
+            background: #32323a;
+            color: #a0a0a0;
+            padding: 0.15rem 0.4rem;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+
+        .item-badge.highlight {
+            background: #2a3a2a;
+            color: #60c060;
+        }
+
+        /* Tab navigation scrolling for many tabs */
+        .tab-nav {
+            overflow-x: auto;
+            flex-wrap: nowrap;
+        }
+
+        .tab-btn {
+            white-space: nowrap;
+            flex: 0 0 auto;
+        }
+
         @media (max-width: 600px) {
             body {
                 padding: 0.5rem;
@@ -375,13 +464,15 @@
             }
 
             .book-item,
-            .movie-item {
+            .movie-item,
+            .item {
                 flex-wrap: wrap;
                 padding: 0.4rem 0.6rem;
             }
 
             .book-rank,
-            .movie-rank {
+            .movie-rank,
+            .item-rank {
                 order: -1;
             }
 
@@ -395,6 +486,15 @@
 
             .movie-scores {
                 flex-wrap: wrap;
+            }
+
+            .tab-nav {
+                padding: 0.5rem 0.25rem;
+            }
+
+            .tab-btn {
+                padding: 0.5rem 0.6rem;
+                font-size: 0.75rem;
             }
         }
     </style>
@@ -424,6 +524,14 @@
         <div class="tab-nav">
             <button class="tab-btn active" onclick="switchTab('books')">Books</button>
             <button class="tab-btn" onclick="switchTab('movies')">Movies</button>
+            <button class="tab-btn" onclick="switchTab('tv')">TV Series</button>
+            <button class="tab-btn" onclick="switchTab('music')">Music</button>
+            <button class="tab-btn" onclick="switchTab('games')">Games</button>
+            <button class="tab-btn" onclick="switchTab('docs')">Documentaries</button>
+            <button class="tab-btn" onclick="switchTab('theater')">Theater</button>
+            <button class="tab-btn" onclick="switchTab('museums')">Museums</button>
+            <button class="tab-btn" onclick="switchTab('ballet')">Ballet</button>
+            <button class="tab-btn" onclick="switchTab('canon')">Canon</button>
         </div>
 
         <div id="books-tab" class="tab-content active">
@@ -20050,16 +20158,345 @@
         </ul>
         </div>
 
+        <!-- TV Series Tab -->
+        <div id="tv-tab" class="tab-content">
+        <div class="controls tv-controls">
+            <div>
+                <button class="filter-btn active" onclick="filterItems('tv', 'all')">All</button>
+                <button class="filter-btn" onclick="filterItems('tv', 'done')">Watched</button>
+                <button class="filter-btn" onclick="filterItems('tv', 'pending')">To Watch</button>
+            </div>
+            <input type="text" class="search-box" placeholder="Search series..." oninput="searchItems('tv', this.value)">
+        </div>
+        <ul class="item-list" id="tv-list">
+            <li class="item" data-category="Drama"><span class="item-rank">#1</span><div class="item-info"><div class="item-title">Breaking Bad</div><div class="item-meta">Drama | 2008-2013 | 5 seasons</div></div><span class="item-badge highlight">9.5 IMDb</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#2</span><div class="item-info"><div class="item-title">The Sopranos</div><div class="item-meta">Drama | 1999-2007 | 6 seasons</div></div><span class="item-badge highlight">9.2 IMDb</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#3</span><div class="item-info"><div class="item-title">The Wire</div><div class="item-meta">Drama | 2002-2008 | 5 seasons</div></div><span class="item-badge highlight">9.3 IMDb</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#4</span><div class="item-info"><div class="item-title">Mad Men</div><div class="item-meta">Drama | 2007-2015 | 7 seasons</div></div><span class="item-badge highlight">8.7 IMDb</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#5</span><div class="item-info"><div class="item-title">Game of Thrones</div><div class="item-meta">Fantasy | 2011-2019 | 8 seasons</div></div><span class="item-badge highlight">9.2 IMDb</span></li>
+            <li class="item" data-category="Comedy"><span class="item-rank">#6</span><div class="item-info"><div class="item-title">The Simpsons</div><div class="item-meta">Comedy | 1989-present | 35+ seasons</div></div><span class="item-badge highlight">8.7 IMDb</span></li>
+            <li class="item" data-category="Comedy"><span class="item-rank">#7</span><div class="item-info"><div class="item-title">Friends</div><div class="item-meta">Comedy | 1994-2004 | 10 seasons</div></div><span class="item-badge highlight">8.9 IMDb</span></li>
+            <li class="item" data-category="Comedy"><span class="item-rank">#8</span><div class="item-info"><div class="item-title">Fleabag</div><div class="item-meta">Comedy | 2016-2019 | 2 seasons</div></div><span class="item-badge highlight">8.7 IMDb</span></li>
+            <li class="item" data-category="Sci-Fi"><span class="item-rank">#9</span><div class="item-info"><div class="item-title">The Expanse</div><div class="item-meta">Sci-Fi | 2015-2022 | 6 seasons</div></div><span class="item-badge highlight">8.5 IMDb</span></li>
+            <li class="item" data-category="Animation"><span class="item-rank">#10</span><div class="item-info"><div class="item-title">Arcane</div><div class="item-meta">Animation | 2021-present | 2 seasons</div></div><span class="item-badge highlight">9.0 IMDb</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#11</span><div class="item-info"><div class="item-title">Chernobyl</div><div class="item-meta">Drama | 2019 | Mini-series</div></div><span class="item-badge highlight">9.4 IMDb</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#12</span><div class="item-info"><div class="item-title">Band of Brothers</div><div class="item-meta">Drama | 2001 | Mini-series</div></div><span class="item-badge highlight">9.4 IMDb</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#13</span><div class="item-info"><div class="item-title">True Detective (S1)</div><div class="item-meta">Drama | 2014 | Season 1</div></div><span class="item-badge highlight">9.0 IMDb</span></li>
+            <li class="item" data-category="Comedy"><span class="item-rank">#14</span><div class="item-info"><div class="item-title">The Office (US)</div><div class="item-meta">Comedy | 2005-2013 | 9 seasons</div></div><span class="item-badge highlight">9.0 IMDb</span></li>
+            <li class="item" data-category="Comedy"><span class="item-rank">#15</span><div class="item-info"><div class="item-title">Seinfeld</div><div class="item-meta">Comedy | 1989-1998 | 9 seasons</div></div><span class="item-badge highlight">8.9 IMDb</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#16</span><div class="item-info"><div class="item-title">The Twilight Zone</div><div class="item-meta">Sci-Fi | 1959-1964 | 5 seasons</div></div><span class="item-badge highlight">9.0 IMDb</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#17</span><div class="item-info"><div class="item-title">Twin Peaks</div><div class="item-meta">Mystery | 1990-1991 | 2 seasons</div></div><span class="item-badge highlight">8.8 IMDb</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#18</span><div class="item-info"><div class="item-title">The West Wing</div><div class="item-meta">Drama | 1999-2006 | 7 seasons</div></div><span class="item-badge highlight">8.8 IMDb</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#19</span><div class="item-info"><div class="item-title">Six Feet Under</div><div class="item-meta">Drama | 2001-2005 | 5 seasons</div></div><span class="item-badge highlight">8.7 IMDb</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#20</span><div class="item-info"><div class="item-title">Better Call Saul</div><div class="item-meta">Drama | 2015-2022 | 6 seasons</div></div><span class="item-badge highlight">9.0 IMDb</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#21</span><div class="item-info"><div class="item-title">Succession</div><div class="item-meta">Drama | 2018-2023 | 4 seasons</div></div><span class="item-badge highlight">8.9 IMDb</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#22</span><div class="item-info"><div class="item-title">The Crown</div><div class="item-meta">Drama | 2016-2023 | 6 seasons</div></div><span class="item-badge highlight">8.6 IMDb</span></li>
+            <li class="item" data-category="Comedy"><span class="item-rank">#23</span><div class="item-info"><div class="item-title">Curb Your Enthusiasm</div><div class="item-meta">Comedy | 2000-2024 | 12 seasons</div></div><span class="item-badge highlight">8.7 IMDb</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#24</span><div class="item-info"><div class="item-title">Deadwood</div><div class="item-meta">Western | 2004-2006 | 3 seasons</div></div><span class="item-badge highlight">8.7 IMDb</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#25</span><div class="item-info"><div class="item-title">The Leftovers</div><div class="item-meta">Drama | 2014-2017 | 3 seasons</div></div><span class="item-badge highlight">8.3 IMDb</span></li>
+        </ul>
+        </div>
+
+        <!-- Music Albums Tab -->
+        <div id="music-tab" class="tab-content">
+        <div class="controls music-controls">
+            <div>
+                <button class="filter-btn active" onclick="filterItems('music', 'all')">All</button>
+                <button class="filter-btn" onclick="filterItems('music', 'done')">Listened</button>
+                <button class="filter-btn" onclick="filterItems('music', 'pending')">To Listen</button>
+            </div>
+            <input type="text" class="search-box" placeholder="Search album or artist..." oninput="searchItems('music', this.value)">
+        </div>
+        <ul class="item-list" id="music-list">
+            <li class="item" data-category="Rock"><span class="item-rank">#1</span><div class="item-info"><div class="item-title">Sgt. Pepper's Lonely Hearts Club Band</div><div class="item-meta">The Beatles | Rock | 1967</div></div><span class="item-badge">Rock</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#2</span><div class="item-info"><div class="item-title">Pet Sounds</div><div class="item-meta">The Beach Boys | Rock | 1966</div></div><span class="item-badge">Rock</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#3</span><div class="item-info"><div class="item-title">Revolver</div><div class="item-meta">The Beatles | Rock | 1966</div></div><span class="item-badge">Rock</span></li>
+            <li class="item" data-category="Soul"><span class="item-rank">#4</span><div class="item-info"><div class="item-title">What's Going On</div><div class="item-meta">Marvin Gaye | Soul | 1971</div></div><span class="item-badge">Soul</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#5</span><div class="item-info"><div class="item-title">Abbey Road</div><div class="item-meta">The Beatles | Rock | 1969</div></div><span class="item-badge">Rock</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#6</span><div class="item-info"><div class="item-title">The Dark Side of the Moon</div><div class="item-meta">Pink Floyd | Progressive Rock | 1973</div></div><span class="item-badge">Prog</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#7</span><div class="item-info"><div class="item-title">The Velvet Underground & Nico</div><div class="item-meta">The Velvet Underground | Rock | 1967</div></div><span class="item-badge">Rock</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#8</span><div class="item-info"><div class="item-title">Blonde on Blonde</div><div class="item-meta">Bob Dylan | Folk Rock | 1966</div></div><span class="item-badge">Folk</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#9</span><div class="item-info"><div class="item-title">The White Album</div><div class="item-meta">The Beatles | Rock | 1968</div></div><span class="item-badge">Rock</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#10</span><div class="item-info"><div class="item-title">Highway 61 Revisited</div><div class="item-meta">Bob Dylan | Folk Rock | 1965</div></div><span class="item-badge">Folk</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#11</span><div class="item-info"><div class="item-title">Rubber Soul</div><div class="item-meta">The Beatles | Rock | 1965</div></div><span class="item-badge">Rock</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#12</span><div class="item-info"><div class="item-title">Exile on Main St.</div><div class="item-meta">The Rolling Stones | Rock | 1972</div></div><span class="item-badge">Rock</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#13</span><div class="item-info"><div class="item-title">London Calling</div><div class="item-meta">The Clash | Punk | 1979</div></div><span class="item-badge">Punk</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#14</span><div class="item-info"><div class="item-title">Let It Bleed</div><div class="item-meta">The Rolling Stones | Rock | 1969</div></div><span class="item-badge">Rock</span></li>
+            <li class="item" data-category="Soul"><span class="item-rank">#15</span><div class="item-info"><div class="item-title">Innervisions</div><div class="item-meta">Stevie Wonder | Soul | 1973</div></div><span class="item-badge">Soul</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#16</span><div class="item-info"><div class="item-title">Are You Experienced</div><div class="item-meta">The Jimi Hendrix Experience | Rock | 1967</div></div><span class="item-badge">Rock</span></li>
+            <li class="item" data-category="Hip-Hop"><span class="item-rank">#17</span><div class="item-info"><div class="item-title">Illmatic</div><div class="item-meta">Nas | Hip-Hop | 1994</div></div><span class="item-badge">Hip-Hop</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#18</span><div class="item-info"><div class="item-title">OK Computer</div><div class="item-meta">Radiohead | Alt Rock | 1997</div></div><span class="item-badge">Alt</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#19</span><div class="item-info"><div class="item-title">Nevermind</div><div class="item-meta">Nirvana | Grunge | 1991</div></div><span class="item-badge">Grunge</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#20</span><div class="item-info"><div class="item-title">Born to Run</div><div class="item-meta">Bruce Springsteen | Rock | 1975</div></div><span class="item-badge">Rock</span></li>
+            <li class="item" data-category="Pop"><span class="item-rank">#21</span><div class="item-info"><div class="item-title">Thriller</div><div class="item-meta">Michael Jackson | Pop | 1982</div></div><span class="item-badge">Pop</span></li>
+            <li class="item" data-category="Jazz"><span class="item-rank">#22</span><div class="item-info"><div class="item-title">Kind of Blue</div><div class="item-meta">Miles Davis | Jazz | 1959</div></div><span class="item-badge">Jazz</span></li>
+            <li class="item" data-category="Jazz"><span class="item-rank">#23</span><div class="item-info"><div class="item-title">A Love Supreme</div><div class="item-meta">John Coltrane | Jazz | 1965</div></div><span class="item-badge">Jazz</span></li>
+            <li class="item" data-category="Rock"><span class="item-rank">#24</span><div class="item-info"><div class="item-title">The Rise and Fall of Ziggy Stardust</div><div class="item-meta">David Bowie | Rock | 1972</div></div><span class="item-badge">Rock</span></li>
+            <li class="item" data-category="Hip-Hop"><span class="item-rank">#25</span><div class="item-info"><div class="item-title">The Miseducation of Lauryn Hill</div><div class="item-meta">Lauryn Hill | Hip-Hop/Soul | 1998</div></div><span class="item-badge">Hip-Hop</span></li>
+        </ul>
+        </div>
+
+        <!-- Video Games Tab -->
+        <div id="games-tab" class="tab-content">
+        <div class="controls games-controls">
+            <div>
+                <button class="filter-btn active" onclick="filterItems('games', 'all')">All</button>
+                <button class="filter-btn" onclick="filterItems('games', 'done')">Played</button>
+                <button class="filter-btn" onclick="filterItems('games', 'pending')">To Play</button>
+            </div>
+            <input type="text" class="search-box" placeholder="Search game..." oninput="searchItems('games', this.value)">
+        </div>
+        <ul class="item-list" id="games-list">
+            <li class="item" data-category="Action"><span class="item-rank">#1</span><div class="item-info"><div class="item-title">The Legend of Zelda: Breath of the Wild</div><div class="item-meta">Nintendo | Action-Adventure | 2017</div></div><span class="item-badge highlight">97 MC</span></li>
+            <li class="item" data-category="RPG"><span class="item-rank">#2</span><div class="item-info"><div class="item-title">Elden Ring</div><div class="item-meta">FromSoftware | Action RPG | 2022</div></div><span class="item-badge highlight">96 MC</span></li>
+            <li class="item" data-category="Action"><span class="item-rank">#3</span><div class="item-info"><div class="item-title">Red Dead Redemption 2</div><div class="item-meta">Rockstar | Action-Adventure | 2018</div></div><span class="item-badge highlight">97 MC</span></li>
+            <li class="item" data-category="Action"><span class="item-rank">#4</span><div class="item-info"><div class="item-title">The Last of Us</div><div class="item-meta">Naughty Dog | Action-Adventure | 2013</div></div><span class="item-badge highlight">95 MC</span></li>
+            <li class="item" data-category="RPG"><span class="item-rank">#5</span><div class="item-info"><div class="item-title">The Witcher 3: Wild Hunt</div><div class="item-meta">CD Projekt Red | RPG | 2015</div></div><span class="item-badge highlight">93 MC</span></li>
+            <li class="item" data-category="Action"><span class="item-rank">#6</span><div class="item-info"><div class="item-title">Portal 2</div><div class="item-meta">Valve | Puzzle | 2011</div></div><span class="item-badge highlight">95 MC</span></li>
+            <li class="item" data-category="Puzzle"><span class="item-rank">#7</span><div class="item-info"><div class="item-title">Tetris</div><div class="item-meta">Various | Puzzle | 1984</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Sandbox"><span class="item-rank">#8</span><div class="item-info"><div class="item-title">Minecraft</div><div class="item-meta">Mojang | Sandbox | 2011</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Action"><span class="item-rank">#9</span><div class="item-info"><div class="item-title">Dark Souls</div><div class="item-meta">FromSoftware | Action RPG | 2011</div></div><span class="item-badge highlight">89 MC</span></li>
+            <li class="item" data-category="Action"><span class="item-rank">#10</span><div class="item-info"><div class="item-title">Half-Life 2</div><div class="item-meta">Valve | FPS | 2004</div></div><span class="item-badge highlight">96 MC</span></li>
+            <li class="item" data-category="RPG"><span class="item-rank">#11</span><div class="item-info"><div class="item-title">Baldur's Gate 3</div><div class="item-meta">Larian Studios | RPG | 2023</div></div><span class="item-badge highlight">96 MC</span></li>
+            <li class="item" data-category="Action"><span class="item-rank">#12</span><div class="item-info"><div class="item-title">Super Mario Bros.</div><div class="item-meta">Nintendo | Platform | 1985</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Action"><span class="item-rank">#13</span><div class="item-info"><div class="item-title">The Legend of Zelda: Ocarina of Time</div><div class="item-meta">Nintendo | Action-Adventure | 1998</div></div><span class="item-badge highlight">99 MC</span></li>
+            <li class="item" data-category="Action"><span class="item-rank">#14</span><div class="item-info"><div class="item-title">Super Mario 64</div><div class="item-meta">Nintendo | Platform | 1996</div></div><span class="item-badge highlight">94 MC</span></li>
+            <li class="item" data-category="Action"><span class="item-rank">#15</span><div class="item-info"><div class="item-title">Grand Theft Auto V</div><div class="item-meta">Rockstar | Action-Adventure | 2013</div></div><span class="item-badge highlight">97 MC</span></li>
+            <li class="item" data-category="Action"><span class="item-rank">#16</span><div class="item-info"><div class="item-title">God of War (2018)</div><div class="item-meta">Santa Monica | Action-Adventure | 2018</div></div><span class="item-badge highlight">94 MC</span></li>
+            <li class="item" data-category="RPG"><span class="item-rank">#17</span><div class="item-info"><div class="item-title">Chrono Trigger</div><div class="item-meta">Square | JRPG | 1995</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Adventure"><span class="item-rank">#18</span><div class="item-info"><div class="item-title">Shadow of the Colossus</div><div class="item-meta">Team Ico | Adventure | 2005</div></div><span class="item-badge highlight">91 MC</span></li>
+            <li class="item" data-category="RPG"><span class="item-rank">#19</span><div class="item-info"><div class="item-title">Final Fantasy VII</div><div class="item-meta">Square | JRPG | 1997</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Action"><span class="item-rank">#20</span><div class="item-info"><div class="item-title">BioShock</div><div class="item-meta">2K Games | FPS | 2007</div></div><span class="item-badge highlight">96 MC</span></li>
+            <li class="item" data-category="Indie"><span class="item-rank">#21</span><div class="item-info"><div class="item-title">Hades</div><div class="item-meta">Supergiant | Roguelike | 2020</div></div><span class="item-badge highlight">93 MC</span></li>
+            <li class="item" data-category="Indie"><span class="item-rank">#22</span><div class="item-info"><div class="item-title">Celeste</div><div class="item-meta">Maddy Makes Games | Platform | 2018</div></div><span class="item-badge highlight">92 MC</span></li>
+            <li class="item" data-category="Indie"><span class="item-rank">#23</span><div class="item-info"><div class="item-title">Hollow Knight</div><div class="item-meta">Team Cherry | Metroidvania | 2017</div></div><span class="item-badge highlight">90 MC</span></li>
+            <li class="item" data-category="Action"><span class="item-rank">#24</span><div class="item-info"><div class="item-title">Sekiro: Shadows Die Twice</div><div class="item-meta">FromSoftware | Action | 2019</div></div><span class="item-badge highlight">90 MC</span></li>
+            <li class="item" data-category="Indie"><span class="item-rank">#25</span><div class="item-info"><div class="item-title">Undertale</div><div class="item-meta">Toby Fox | RPG | 2015</div></div><span class="item-badge highlight">92 MC</span></li>
+        </ul>
+        </div>
+
+        <!-- Documentaries Tab -->
+        <div id="docs-tab" class="tab-content">
+        <div class="controls docs-controls">
+            <div>
+                <button class="filter-btn active" onclick="filterItems('docs', 'all')">All</button>
+                <button class="filter-btn" onclick="filterItems('docs', 'done')">Watched</button>
+                <button class="filter-btn" onclick="filterItems('docs', 'pending')">To Watch</button>
+            </div>
+            <input type="text" class="search-box" placeholder="Search documentary..." oninput="searchItems('docs', this.value)">
+        </div>
+        <ul class="item-list" id="docs-list">
+            <li class="item" data-category="Culture"><span class="item-rank">#1</span><div class="item-info"><div class="item-title">Baraka</div><div class="item-meta">Ron Fricke | Culture | 1992</div></div><span class="item-badge highlight">100% RT</span></li>
+            <li class="item" data-category="Social"><span class="item-rank">#2</span><div class="item-info"><div class="item-title">Paris is Burning</div><div class="item-meta">Jennie Livingston | Social | 1990</div></div><span class="item-badge highlight">98% RT</span></li>
+            <li class="item" data-category="Social"><span class="item-rank">#3</span><div class="item-info"><div class="item-title">I Am Not Your Negro</div><div class="item-meta">Raoul Peck | Social | 2016</div></div><span class="item-badge highlight">98% RT</span></li>
+            <li class="item" data-category="Food"><span class="item-rank">#4</span><div class="item-info"><div class="item-title">Jiro Dreams of Sushi</div><div class="item-meta">David Gelb | Food | 2011</div></div><span class="item-badge highlight">99% RT</span></li>
+            <li class="item" data-category="Nature"><span class="item-rank">#5</span><div class="item-info"><div class="item-title">Planet Earth</div><div class="item-meta">BBC | Nature | 2006</div></div><span class="item-badge highlight">Series</span></li>
+            <li class="item" data-category="True Crime"><span class="item-rank">#6</span><div class="item-info"><div class="item-title">Making a Murderer</div><div class="item-meta">Netflix | True Crime | 2015</div></div><span class="item-badge highlight">Series</span></li>
+            <li class="item" data-category="Science"><span class="item-rank">#7</span><div class="item-info"><div class="item-title">Cosmos: A Personal Voyage</div><div class="item-meta">Carl Sagan | Science | 1980</div></div><span class="item-badge highlight">Series</span></li>
+            <li class="item" data-category="War"><span class="item-rank">#8</span><div class="item-info"><div class="item-title">The Fog of War</div><div class="item-meta">Errol Morris | War | 2003</div></div><span class="item-badge highlight">96% RT</span></li>
+            <li class="item" data-category="History"><span class="item-rank">#9</span><div class="item-info"><div class="item-title">Shoah</div><div class="item-meta">Claude Lanzmann | History | 1985</div></div><span class="item-badge">9h 26m</span></li>
+            <li class="item" data-category="Sports"><span class="item-rank">#10</span><div class="item-info"><div class="item-title">Hoop Dreams</div><div class="item-meta">Steve James | Sports | 1994</div></div><span class="item-badge highlight">98% RT</span></li>
+            <li class="item" data-category="Music"><span class="item-rank">#11</span><div class="item-info"><div class="item-title">Amy</div><div class="item-meta">Asif Kapadia | Music | 2015</div></div><span class="item-badge highlight">97% RT</span></li>
+            <li class="item" data-category="Nature"><span class="item-rank">#12</span><div class="item-info"><div class="item-title">March of the Penguins</div><div class="item-meta">Luc Jacquet | Nature | 2005</div></div><span class="item-badge highlight">94% RT</span></li>
+            <li class="item" data-category="Science"><span class="item-rank">#13</span><div class="item-info"><div class="item-title">An Inconvenient Truth</div><div class="item-meta">Davis Guggenheim | Science | 2006</div></div><span class="item-badge highlight">93% RT</span></li>
+            <li class="item" data-category="Social"><span class="item-rank">#14</span><div class="item-info"><div class="item-title">13th</div><div class="item-meta">Ava DuVernay | Social | 2016</div></div><span class="item-badge highlight">97% RT</span></li>
+            <li class="item" data-category="War"><span class="item-rank">#15</span><div class="item-info"><div class="item-title">The Civil War</div><div class="item-meta">Ken Burns | History | 1990</div></div><span class="item-badge highlight">Series</span></li>
+            <li class="item" data-category="Travel"><span class="item-rank">#16</span><div class="item-info"><div class="item-title">Anthony Bourdain: Parts Unknown</div><div class="item-meta">CNN | Travel/Food | 2013-2018</div></div><span class="item-badge highlight">Series</span></li>
+            <li class="item" data-category="Music"><span class="item-rank">#17</span><div class="item-info"><div class="item-title">Searching for Sugar Man</div><div class="item-meta">Malik Bendjelloul | Music | 2012</div></div><span class="item-badge highlight">96% RT</span></li>
+            <li class="item" data-category="True Crime"><span class="item-rank">#18</span><div class="item-info"><div class="item-title">The Jinx</div><div class="item-meta">HBO | True Crime | 2015</div></div><span class="item-badge highlight">Series</span></li>
+            <li class="item" data-category="Social"><span class="item-rank">#19</span><div class="item-info"><div class="item-title">Won't You Be My Neighbor?</div><div class="item-meta">Morgan Neville | Biography | 2018</div></div><span class="item-badge highlight">98% RT</span></li>
+            <li class="item" data-category="Culture"><span class="item-rank">#20</span><div class="item-info"><div class="item-title">Babies</div><div class="item-meta">Thomas Balmes | Culture | 2010</div></div><span class="item-badge highlight">68% RT</span></li>
+            <li class="item" data-category="Sports"><span class="item-rank">#21</span><div class="item-info"><div class="item-title">Free Solo</div><div class="item-meta">National Geographic | Sports | 2018</div></div><span class="item-badge highlight">97% RT</span></li>
+            <li class="item" data-category="True Crime"><span class="item-rank">#22</span><div class="item-info"><div class="item-title">The Staircase</div><div class="item-meta">Jean-Xavier de Lestrade | True Crime | 2004</div></div><span class="item-badge highlight">Series</span></li>
+            <li class="item" data-category="Social"><span class="item-rank">#23</span><div class="item-info"><div class="item-title">Blackfish</div><div class="item-meta">Gabriela Cowperthwaite | Nature | 2013</div></div><span class="item-badge highlight">98% RT</span></li>
+            <li class="item" data-category="Music"><span class="item-rank">#24</span><div class="item-info"><div class="item-title">The Last Dance</div><div class="item-meta">ESPN | Sports | 2020</div></div><span class="item-badge highlight">Series</span></li>
+            <li class="item" data-category="Culture"><span class="item-rank">#25</span><div class="item-info"><div class="item-title">Samsara</div><div class="item-meta">Ron Fricke | Culture | 2011</div></div><span class="item-badge highlight">79% RT</span></li>
+        </ul>
+        </div>
+
+        <!-- Theater Tab -->
+        <div id="theater-tab" class="tab-content">
+        <div class="controls theater-controls">
+            <div>
+                <button class="filter-btn active" onclick="filterItems('theater', 'all')">All</button>
+                <button class="filter-btn" onclick="filterItems('theater', 'done')">Seen</button>
+                <button class="filter-btn" onclick="filterItems('theater', 'pending')">To See</button>
+            </div>
+            <input type="text" class="search-box" placeholder="Search play or author..." oninput="searchItems('theater', this.value)">
+        </div>
+        <ul class="item-list" id="theater-list">
+            <li class="item" data-category="Tragedy"><span class="item-rank">#1</span><div class="item-info"><div class="item-title">Hamlet</div><div class="item-meta">William Shakespeare | Tragedy | c. 1600</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Tragedy"><span class="item-rank">#2</span><div class="item-info"><div class="item-title">Macbeth</div><div class="item-meta">William Shakespeare | Tragedy | c. 1606</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Tragedy"><span class="item-rank">#3</span><div class="item-info"><div class="item-title">King Lear</div><div class="item-meta">William Shakespeare | Tragedy | c. 1606</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Tragedy"><span class="item-rank">#4</span><div class="item-info"><div class="item-title">Othello</div><div class="item-meta">William Shakespeare | Tragedy | c. 1603</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Tragedy"><span class="item-rank">#5</span><div class="item-info"><div class="item-title">Romeo and Juliet</div><div class="item-meta">William Shakespeare | Tragedy | c. 1597</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#6</span><div class="item-info"><div class="item-title">Death of a Salesman</div><div class="item-meta">Arthur Miller | Drama | 1949</div></div><span class="item-badge">Pulitzer</span></li>
+            <li class="item" data-category="Absurdist"><span class="item-rank">#7</span><div class="item-info"><div class="item-title">Waiting for Godot</div><div class="item-meta">Samuel Beckett | Absurdist | 1953</div></div><span class="item-badge">Modern</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#8</span><div class="item-info"><div class="item-title">A Streetcar Named Desire</div><div class="item-meta">Tennessee Williams | Drama | 1947</div></div><span class="item-badge">Pulitzer</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#9</span><div class="item-info"><div class="item-title">The Crucible</div><div class="item-meta">Arthur Miller | Drama | 1953</div></div><span class="item-badge">Modern</span></li>
+            <li class="item" data-category="Comedy"><span class="item-rank">#10</span><div class="item-info"><div class="item-title">The Importance of Being Earnest</div><div class="item-meta">Oscar Wilde | Comedy | 1895</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#11</span><div class="item-info"><div class="item-title">A Doll's House</div><div class="item-meta">Henrik Ibsen | Drama | 1879</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#12</span><div class="item-info"><div class="item-title">Long Day's Journey Into Night</div><div class="item-meta">Eugene O'Neill | Drama | 1956</div></div><span class="item-badge">Pulitzer</span></li>
+            <li class="item" data-category="Tragedy"><span class="item-rank">#13</span><div class="item-info"><div class="item-title">Oedipus Rex</div><div class="item-meta">Sophocles | Tragedy | c. 429 BC</div></div><span class="item-badge">Ancient</span></li>
+            <li class="item" data-category="Tragedy"><span class="item-rank">#14</span><div class="item-info"><div class="item-title">Oresteia</div><div class="item-meta">Aeschylus | Tragedy | 458 BC</div></div><span class="item-badge">Ancient</span></li>
+            <li class="item" data-category="Comedy"><span class="item-rank">#15</span><div class="item-info"><div class="item-title">A Midsummer Night's Dream</div><div class="item-meta">William Shakespeare | Comedy | c. 1596</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#16</span><div class="item-info"><div class="item-title">The Cherry Orchard</div><div class="item-meta">Anton Chekhov | Drama | 1904</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Comedy"><span class="item-rank">#17</span><div class="item-info"><div class="item-title">Tartuffe</div><div class="item-meta">Molière | Comedy | 1664</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#18</span><div class="item-info"><div class="item-title">Who's Afraid of Virginia Woolf?</div><div class="item-meta">Edward Albee | Drama | 1962</div></div><span class="item-badge">Tony</span></li>
+            <li class="item" data-category="Musical"><span class="item-rank">#19</span><div class="item-info"><div class="item-title">Hamilton</div><div class="item-meta">Lin-Manuel Miranda | Musical | 2015</div></div><span class="item-badge">Pulitzer</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#20</span><div class="item-info"><div class="item-title">Angels in America</div><div class="item-meta">Tony Kushner | Drama | 1991</div></div><span class="item-badge">Pulitzer</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#21</span><div class="item-info"><div class="item-title">The Glass Menagerie</div><div class="item-meta">Tennessee Williams | Drama | 1944</div></div><span class="item-badge">Modern</span></li>
+            <li class="item" data-category="Tragedy"><span class="item-rank">#22</span><div class="item-info"><div class="item-title">Medea</div><div class="item-meta">Euripides | Tragedy | 431 BC</div></div><span class="item-badge">Ancient</span></li>
+            <li class="item" data-category="Comedy"><span class="item-rank">#23</span><div class="item-info"><div class="item-title">The Misanthrope</div><div class="item-meta">Molière | Comedy | 1666</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#24</span><div class="item-info"><div class="item-title">Uncle Vanya</div><div class="item-meta">Anton Chekhov | Drama | 1898</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#25</span><div class="item-info"><div class="item-title">Fences</div><div class="item-meta">August Wilson | Drama | 1985</div></div><span class="item-badge">Pulitzer</span></li>
+        </ul>
+        </div>
+
+        <!-- Art Museums Tab -->
+        <div id="museums-tab" class="tab-content">
+        <div class="controls museums-controls">
+            <div>
+                <button class="filter-btn active" onclick="filterItems('museums', 'all')">All</button>
+                <button class="filter-btn" onclick="filterItems('museums', 'done')">Visited</button>
+                <button class="filter-btn" onclick="filterItems('museums', 'pending')">To Visit</button>
+            </div>
+            <input type="text" class="search-box" placeholder="Search museum..." oninput="searchItems('museums', this.value)">
+        </div>
+        <ul class="item-list" id="museums-list">
+            <li class="item" data-category="Art"><span class="item-rank">#1</span><div class="item-info"><div class="item-title">The Louvre</div><div class="item-meta">Paris, France | Art | Mona Lisa, Venus de Milo</div></div><span class="item-badge highlight">9M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#2</span><div class="item-info"><div class="item-title">Vatican Museums</div><div class="item-meta">Vatican City | Art | Sistine Chapel</div></div><span class="item-badge highlight">6M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#3</span><div class="item-info"><div class="item-title">Metropolitan Museum of Art</div><div class="item-meta">New York, USA | Art | 2M objects</div></div><span class="item-badge highlight">6M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#4</span><div class="item-info"><div class="item-title">The Uffizi Gallery</div><div class="item-meta">Florence, Italy | Renaissance | Botticelli, Da Vinci</div></div><span class="item-badge highlight">4M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#5</span><div class="item-info"><div class="item-title">Rijksmuseum</div><div class="item-meta">Amsterdam, Netherlands | Art | Rembrandt, Vermeer</div></div><span class="item-badge highlight">2.5M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#6</span><div class="item-info"><div class="item-title">British Museum</div><div class="item-meta">London, UK | History/Art | Rosetta Stone</div></div><span class="item-badge highlight">6M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#7</span><div class="item-info"><div class="item-title">Museo del Prado</div><div class="item-meta">Madrid, Spain | Art | Velázquez, Goya</div></div><span class="item-badge highlight">3M/yr</span></li>
+            <li class="item" data-category="Modern"><span class="item-rank">#8</span><div class="item-info"><div class="item-title">Museum of Modern Art (MoMA)</div><div class="item-meta">New York, USA | Modern | Starry Night, Picasso</div></div><span class="item-badge highlight">3M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#9</span><div class="item-info"><div class="item-title">The Hermitage Museum</div><div class="item-meta">St. Petersburg, Russia | Art | 3M objects</div></div><span class="item-badge highlight">5M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#10</span><div class="item-info"><div class="item-title">National Gallery</div><div class="item-meta">London, UK | Art | Van Gogh, Monet</div></div><span class="item-badge highlight">6M/yr</span></li>
+            <li class="item" data-category="Modern"><span class="item-rank">#11</span><div class="item-info"><div class="item-title">Tate Modern</div><div class="item-meta">London, UK | Modern | Dalí, Warhol</div></div><span class="item-badge highlight">6M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#12</span><div class="item-info"><div class="item-title">Musée d'Orsay</div><div class="item-meta">Paris, France | Impressionist | Monet, Renoir</div></div><span class="item-badge highlight">3.5M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#13</span><div class="item-info"><div class="item-title">Galleria dell'Accademia</div><div class="item-meta">Florence, Italy | Renaissance | Michelangelo's David</div></div><span class="item-badge highlight">1.7M/yr</span></li>
+            <li class="item" data-category="Modern"><span class="item-rank">#14</span><div class="item-info"><div class="item-title">Guggenheim Museum Bilbao</div><div class="item-meta">Bilbao, Spain | Modern | Gehry architecture</div></div><span class="item-badge highlight">1M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#15</span><div class="item-info"><div class="item-title">Acropolis Museum</div><div class="item-meta">Athens, Greece | Ancient | Parthenon sculptures</div></div><span class="item-badge highlight">1.5M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#16</span><div class="item-info"><div class="item-title">Musée de l'Orangerie</div><div class="item-meta">Paris, France | Impressionist | Monet's Water Lilies</div></div><span class="item-badge highlight">1M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#17</span><div class="item-info"><div class="item-title">National Gallery of Art</div><div class="item-meta">Washington D.C., USA | Art | Da Vinci, Vermeer</div></div><span class="item-badge highlight">4M/yr</span></li>
+            <li class="item" data-category="Asian"><span class="item-rank">#18</span><div class="item-info"><div class="item-title">Tokyo National Museum</div><div class="item-meta">Tokyo, Japan | Asian Art | Japanese treasures</div></div><span class="item-badge highlight">1.5M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#19</span><div class="item-info"><div class="item-title">Van Gogh Museum</div><div class="item-meta">Amsterdam, Netherlands | Art | 200+ Van Gogh works</div></div><span class="item-badge highlight">2M/yr</span></li>
+            <li class="item" data-category="Modern"><span class="item-rank">#20</span><div class="item-info"><div class="item-title">Centre Pompidou</div><div class="item-meta">Paris, France | Modern | Kandinsky, Matisse</div></div><span class="item-badge highlight">3M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#21</span><div class="item-info"><div class="item-title">Egyptian Museum</div><div class="item-meta">Cairo, Egypt | Ancient | Tutankhamun</div></div><span class="item-badge highlight">2M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#22</span><div class="item-info"><div class="item-title">Art Institute of Chicago</div><div class="item-meta">Chicago, USA | Art | American Gothic, Seurat</div></div><span class="item-badge highlight">1.5M/yr</span></li>
+            <li class="item" data-category="Modern"><span class="item-rank">#23</span><div class="item-info"><div class="item-title">Reina Sofía</div><div class="item-meta">Madrid, Spain | Modern | Guernica (Picasso)</div></div><span class="item-badge highlight">4M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#24</span><div class="item-info"><div class="item-title">Pergamon Museum</div><div class="item-meta">Berlin, Germany | Ancient | Ishtar Gate</div></div><span class="item-badge highlight">1M/yr</span></li>
+            <li class="item" data-category="Art"><span class="item-rank">#25</span><div class="item-info"><div class="item-title">Palazzo Ducale</div><div class="item-meta">Venice, Italy | Art | Tintoretto, Veronese</div></div><span class="item-badge highlight">1.3M/yr</span></li>
+        </ul>
+        </div>
+
+        <!-- Ballet Tab -->
+        <div id="ballet-tab" class="tab-content">
+        <div class="controls ballet-controls">
+            <div>
+                <button class="filter-btn active" onclick="filterItems('ballet', 'all')">All</button>
+                <button class="filter-btn" onclick="filterItems('ballet', 'done')">Seen</button>
+                <button class="filter-btn" onclick="filterItems('ballet', 'pending')">To See</button>
+            </div>
+            <input type="text" class="search-box" placeholder="Search ballet..." oninput="searchItems('ballet', this.value)">
+        </div>
+        <ul class="item-list" id="ballet-list">
+            <li class="item" data-category="Classical"><span class="item-rank">#1</span><div class="item-info"><div class="item-title">The Nutcracker</div><div class="item-meta">Tchaikovsky | Classical | 1892</div></div><span class="item-badge">Essential</span></li>
+            <li class="item" data-category="Classical"><span class="item-rank">#2</span><div class="item-info"><div class="item-title">Swan Lake</div><div class="item-meta">Tchaikovsky | Classical | 1877</div></div><span class="item-badge">Essential</span></li>
+            <li class="item" data-category="Classical"><span class="item-rank">#3</span><div class="item-info"><div class="item-title">Giselle</div><div class="item-meta">Adolphe Adam | Romantic | 1841</div></div><span class="item-badge">Essential</span></li>
+            <li class="item" data-category="Classical"><span class="item-rank">#4</span><div class="item-info"><div class="item-title">Sleeping Beauty</div><div class="item-meta">Tchaikovsky | Classical | 1890</div></div><span class="item-badge">Essential</span></li>
+            <li class="item" data-category="Classical"><span class="item-rank">#5</span><div class="item-info"><div class="item-title">Don Quixote</div><div class="item-meta">Ludwig Minkus | Classical | 1869</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Classical"><span class="item-rank">#6</span><div class="item-info"><div class="item-title">La Bayadère</div><div class="item-meta">Ludwig Minkus | Classical | 1877</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Neoclassical"><span class="item-rank">#7</span><div class="item-info"><div class="item-title">Romeo and Juliet</div><div class="item-meta">Prokofiev | Neoclassical | 1938</div></div><span class="item-badge">Essential</span></li>
+            <li class="item" data-category="Classical"><span class="item-rank">#8</span><div class="item-info"><div class="item-title">Coppélia</div><div class="item-meta">Léo Delibes | Classical | 1870</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Neoclassical"><span class="item-rank">#9</span><div class="item-info"><div class="item-title">The Rite of Spring</div><div class="item-meta">Stravinsky | Modern | 1913</div></div><span class="item-badge">Landmark</span></li>
+            <li class="item" data-category="Classical"><span class="item-rank">#10</span><div class="item-info"><div class="item-title">La Sylphide</div><div class="item-meta">Jean-Madeleine Schneitzhoeffer | Romantic | 1832</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Neoclassical"><span class="item-rank">#11</span><div class="item-info"><div class="item-title">Cinderella</div><div class="item-meta">Prokofiev | Neoclassical | 1945</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Modern"><span class="item-rank">#12</span><div class="item-info"><div class="item-title">Serenade</div><div class="item-meta">Tchaikovsky/Balanchine | Neoclassical | 1934</div></div><span class="item-badge">Modern</span></li>
+            <li class="item" data-category="Classical"><span class="item-rank">#13</span><div class="item-info"><div class="item-title">Paquita</div><div class="item-meta">Édouard Deldevez | Classical | 1846</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Modern"><span class="item-rank">#14</span><div class="item-info"><div class="item-title">Carmen</div><div class="item-meta">Bizet/Various | Character | Various</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Modern"><span class="item-rank">#15</span><div class="item-info"><div class="item-title">Jewels</div><div class="item-meta">Various/Balanchine | Neoclassical | 1967</div></div><span class="item-badge">Modern</span></li>
+            <li class="item" data-category="Classical"><span class="item-rank">#16</span><div class="item-info"><div class="item-title">Le Corsaire</div><div class="item-meta">Various | Classical | 1856</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Neoclassical"><span class="item-rank">#17</span><div class="item-info"><div class="item-title">Spartacus</div><div class="item-meta">Aram Khachaturian | Soviet | 1956</div></div><span class="item-badge">Epic</span></li>
+            <li class="item" data-category="Modern"><span class="item-rank">#18</span><div class="item-info"><div class="item-title">Afternoon of a Faun</div><div class="item-meta">Debussy/Nijinsky | Modern | 1912</div></div><span class="item-badge">Landmark</span></li>
+            <li class="item" data-category="Modern"><span class="item-rank">#19</span><div class="item-info"><div class="item-title">Apollo</div><div class="item-meta">Stravinsky/Balanchine | Neoclassical | 1928</div></div><span class="item-badge">Modern</span></li>
+            <li class="item" data-category="Classical"><span class="item-rank">#20</span><div class="item-info"><div class="item-title">Raymonda</div><div class="item-meta">Alexander Glazunov | Classical | 1898</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Modern"><span class="item-rank">#21</span><div class="item-info"><div class="item-title">Manon</div><div class="item-meta">Massenet/MacMillan | Dramatic | 1974</div></div><span class="item-badge">Modern</span></li>
+            <li class="item" data-category="Modern"><span class="item-rank">#22</span><div class="item-info"><div class="item-title">Onegin</div><div class="item-meta">Tchaikovsky/Cranko | Dramatic | 1965</div></div><span class="item-badge">Modern</span></li>
+            <li class="item" data-category="Modern"><span class="item-rank">#23</span><div class="item-info"><div class="item-title">In the Night</div><div class="item-meta">Chopin/Robbins | Romantic | 1970</div></div><span class="item-badge">Modern</span></li>
+            <li class="item" data-category="Modern"><span class="item-rank">#24</span><div class="item-info"><div class="item-title">A Midsummer Night's Dream</div><div class="item-meta">Mendelssohn/Balanchine | Fantasy | 1962</div></div><span class="item-badge">Modern</span></li>
+            <li class="item" data-category="Classical"><span class="item-rank">#25</span><div class="item-info"><div class="item-title">Les Sylphides</div><div class="item-meta">Chopin/Fokine | Romantic | 1909</div></div><span class="item-badge">Classic</span></li>
+        </ul>
+        </div>
+
+        <!-- Western Literary Canon Tab -->
+        <div id="canon-tab" class="tab-content">
+        <div class="controls canon-controls">
+            <div>
+                <button class="filter-btn active" onclick="filterItems('canon', 'all')">All</button>
+                <button class="filter-btn" onclick="filterItems('canon', 'done')">Read</button>
+                <button class="filter-btn" onclick="filterItems('canon', 'pending')">To Read</button>
+            </div>
+            <input type="text" class="search-box" placeholder="Search work or author..." oninput="searchItems('canon', this.value)">
+        </div>
+        <ul class="item-list" id="canon-list">
+            <li class="item" data-category="Epic"><span class="item-rank">#1</span><div class="item-info"><div class="item-title">The Iliad</div><div class="item-meta">Homer | Epic Poetry | c. 8th century BC</div></div><span class="item-badge">Ancient</span></li>
+            <li class="item" data-category="Epic"><span class="item-rank">#2</span><div class="item-info"><div class="item-title">The Odyssey</div><div class="item-meta">Homer | Epic Poetry | c. 8th century BC</div></div><span class="item-badge">Ancient</span></li>
+            <li class="item" data-category="Epic"><span class="item-rank">#3</span><div class="item-info"><div class="item-title">The Aeneid</div><div class="item-meta">Virgil | Epic Poetry | 19 BC</div></div><span class="item-badge">Roman</span></li>
+            <li class="item" data-category="Epic"><span class="item-rank">#4</span><div class="item-info"><div class="item-title">Divine Comedy</div><div class="item-meta">Dante Alighieri | Epic Poetry | 1320</div></div><span class="item-badge">Medieval</span></li>
+            <li class="item" data-category="Epic"><span class="item-rank">#5</span><div class="item-info"><div class="item-title">Paradise Lost</div><div class="item-meta">John Milton | Epic Poetry | 1667</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Philosophy"><span class="item-rank">#6</span><div class="item-info"><div class="item-title">The Republic</div><div class="item-meta">Plato | Philosophy | c. 375 BC</div></div><span class="item-badge">Ancient</span></li>
+            <li class="item" data-category="Philosophy"><span class="item-rank">#7</span><div class="item-info"><div class="item-title">Nicomachean Ethics</div><div class="item-meta">Aristotle | Philosophy | c. 340 BC</div></div><span class="item-badge">Ancient</span></li>
+            <li class="item" data-category="Philosophy"><span class="item-rank">#8</span><div class="item-info"><div class="item-title">Meditations</div><div class="item-meta">Marcus Aurelius | Philosophy | c. 180 AD</div></div><span class="item-badge">Roman</span></li>
+            <li class="item" data-category="Philosophy"><span class="item-rank">#9</span><div class="item-info"><div class="item-title">Confessions</div><div class="item-meta">Saint Augustine | Philosophy | 397-400 AD</div></div><span class="item-badge">Medieval</span></li>
+            <li class="item" data-category="Novel"><span class="item-rank">#10</span><div class="item-info"><div class="item-title">Don Quixote</div><div class="item-meta">Miguel de Cervantes | Novel | 1605/1615</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Drama"><span class="item-rank">#11</span><div class="item-info"><div class="item-title">Complete Works of Shakespeare</div><div class="item-meta">William Shakespeare | Drama | 1590-1613</div></div><span class="item-badge">Essential</span></li>
+            <li class="item" data-category="Philosophy"><span class="item-rank">#12</span><div class="item-info"><div class="item-title">Leviathan</div><div class="item-meta">Thomas Hobbes | Philosophy | 1651</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Philosophy"><span class="item-rank">#13</span><div class="item-info"><div class="item-title">Essay Concerning Human Understanding</div><div class="item-meta">John Locke | Philosophy | 1689</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Poetry"><span class="item-rank">#14</span><div class="item-info"><div class="item-title">The Canterbury Tales</div><div class="item-meta">Geoffrey Chaucer | Poetry | c. 1400</div></div><span class="item-badge">Medieval</span></li>
+            <li class="item" data-category="Novel"><span class="item-rank">#15</span><div class="item-info"><div class="item-title">Gulliver's Travels</div><div class="item-meta">Jonathan Swift | Satire | 1726</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Novel"><span class="item-rank">#16</span><div class="item-info"><div class="item-title">Tom Jones</div><div class="item-meta">Henry Fielding | Novel | 1749</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Novel"><span class="item-rank">#17</span><div class="item-info"><div class="item-title">Tristram Shandy</div><div class="item-meta">Laurence Sterne | Novel | 1759-1767</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Philosophy"><span class="item-rank">#18</span><div class="item-info"><div class="item-title">Critique of Pure Reason</div><div class="item-meta">Immanuel Kant | Philosophy | 1781</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Novel"><span class="item-rank">#19</span><div class="item-info"><div class="item-title">Faust</div><div class="item-meta">Johann Wolfgang von Goethe | Drama | 1808/1832</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Novel"><span class="item-rank">#20</span><div class="item-info"><div class="item-title">Moby-Dick</div><div class="item-meta">Herman Melville | Novel | 1851</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Poetry"><span class="item-rank">#21</span><div class="item-info"><div class="item-title">Leaves of Grass</div><div class="item-meta">Walt Whitman | Poetry | 1855</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Novel"><span class="item-rank">#22</span><div class="item-info"><div class="item-title">War and Peace</div><div class="item-meta">Leo Tolstoy | Novel | 1869</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Novel"><span class="item-rank">#23</span><div class="item-info"><div class="item-title">The Brothers Karamazov</div><div class="item-meta">Fyodor Dostoevsky | Novel | 1880</div></div><span class="item-badge">Classic</span></li>
+            <li class="item" data-category="Novel"><span class="item-rank">#24</span><div class="item-info"><div class="item-title">Ulysses</div><div class="item-meta">James Joyce | Novel | 1922</div></div><span class="item-badge">Modern</span></li>
+            <li class="item" data-category="Novel"><span class="item-rank">#25</span><div class="item-info"><div class="item-title">In Search of Lost Time</div><div class="item-meta">Marcel Proust | Novel | 1913-1927</div></div><span class="item-badge">Modern</span></li>
+        </ul>
+        </div>
+
         <footer>
-            <p>1001 Books You Must Read Before You Die</p>
+            <p>Essential Media You Must Experience</p>
         </footer>
     </div>
 
     <script>
         let currentTab = 'books';
 
+        // Tab configuration
+        const tabConfig = {
+            books: { title: '1001 Books You Must Read', subtitle: 'Sorted by page count', totalLabel: 'Total books', doneLabel: 'Books read', doneClass: 'read', selector: '.book-item', showExtra: true, extraLabel: 'Pages read' },
+            movies: { title: '1001 Movies You Must See', subtitle: 'Box office data', totalLabel: 'Total movies', doneLabel: 'Watched', doneClass: 'watched', selector: '.movie-item', showExtra: false },
+            tv: { title: 'Essential TV Series', subtitle: 'Must-watch shows', totalLabel: 'Total series', doneLabel: 'Watched', doneClass: 'done', selector: '#tv-list .item', showExtra: false },
+            music: { title: '1001 Albums You Must Hear', subtitle: 'Essential listening', totalLabel: 'Total albums', doneLabel: 'Listened', doneClass: 'done', selector: '#music-list .item', showExtra: false },
+            games: { title: 'Essential Video Games', subtitle: 'Must-play games', totalLabel: 'Total games', doneLabel: 'Played', doneClass: 'done', selector: '#games-list .item', showExtra: false },
+            docs: { title: 'Essential Documentaries', subtitle: 'Must-watch docs', totalLabel: 'Total docs', doneLabel: 'Watched', doneClass: 'done', selector: '#docs-list .item', showExtra: false },
+            theater: { title: 'Essential Theater', subtitle: 'Greatest plays', totalLabel: 'Total plays', doneLabel: 'Seen', doneClass: 'done', selector: '#theater-list .item', showExtra: false },
+            museums: { title: 'Essential Art Museums', subtitle: 'Must-visit museums', totalLabel: 'Total museums', doneLabel: 'Visited', doneClass: 'done', selector: '#museums-list .item', showExtra: false },
+            ballet: { title: 'Essential Ballets', subtitle: 'Classical dance', totalLabel: 'Total ballets', doneLabel: 'Seen', doneClass: 'done', selector: '#ballet-list .item', showExtra: false },
+            canon: { title: 'Western Literary Canon', subtitle: 'Foundational works', totalLabel: 'Total works', doneLabel: 'Read', doneClass: 'done', selector: '#canon-list .item', showExtra: false }
+        };
+
         // Update header based on current tab
         function updateHeader(tabName) {
+            const config = tabConfig[tabName];
+            if (!config) return;
+
             const title = document.getElementById('header-title');
             const subtitle = document.getElementById('header-subtitle');
             const statTotal = document.getElementById('stat-total');
@@ -20069,45 +20506,32 @@
             const statExtra = document.getElementById('stat-extra');
             const statExtraLabel = document.getElementById('stat-extra-label');
 
-            if (tabName === 'books') {
-                title.textContent = '1001 Books You Must Read';
-                subtitle.textContent = 'Sorted by page count';
-                statTotalLabel.textContent = 'Total books';
-                statDoneLabel.textContent = 'Books read';
-                statExtraLabel.textContent = 'Pages read';
+            title.textContent = config.title;
+            subtitle.textContent = config.subtitle;
+            statTotalLabel.textContent = config.totalLabel;
+            statDoneLabel.textContent = config.doneLabel;
 
-                const books = document.querySelectorAll('.book-item');
-                let readCount = 0;
-                let pagesRead = 0;
+            const items = document.querySelectorAll(config.selector);
+            let doneCount = 0;
+            let extraValue = 0;
 
-                books.forEach(item => {
-                    if (item.classList.contains('read')) {
-                        readCount++;
-                        pagesRead += parseInt(item.dataset.pages);
+            items.forEach(item => {
+                if (item.classList.contains(config.doneClass)) {
+                    doneCount++;
+                    if (config.showExtra && item.dataset.pages) {
+                        extraValue += parseInt(item.dataset.pages);
                     }
-                });
+                }
+            });
 
-                statTotal.textContent = books.length;
-                statDone.textContent = readCount;
-                statExtra.textContent = pagesRead.toLocaleString();
+            statTotal.textContent = items.length;
+            statDone.textContent = doneCount;
+
+            if (config.showExtra) {
+                statExtraLabel.textContent = config.extraLabel;
+                statExtra.textContent = extraValue.toLocaleString();
                 statExtra.parentElement.style.display = '';
             } else {
-                title.textContent = '1001 Movies You Must See';
-                subtitle.textContent = 'Box office data';
-                statTotalLabel.textContent = 'Total movies';
-                statDoneLabel.textContent = 'Watched';
-
-                const movies = document.querySelectorAll('.movie-item');
-                let watchedCount = 0;
-
-                movies.forEach(item => {
-                    if (item.classList.contains('watched')) {
-                        watchedCount++;
-                    }
-                });
-
-                statTotal.textContent = movies.length;
-                statDone.textContent = watchedCount;
                 statExtra.parentElement.style.display = 'none';
             }
         }
@@ -20186,6 +20610,45 @@
             items.forEach(item => {
                 const title = item.querySelector('.movie-title').textContent.toLowerCase();
                 const meta = item.querySelector('.movie-meta').textContent.toLowerCase();
+                const matches = title.includes(q) || meta.includes(q);
+                item.classList.toggle('hidden', !matches && q !== '');
+            });
+        }
+
+        // Generic filter for new tabs
+        function filterItems(tabName, filter) {
+            const config = tabConfig[tabName];
+            if (!config) return;
+
+            const items = document.querySelectorAll(config.selector);
+            const buttons = document.querySelectorAll('.' + tabName + '-controls .filter-btn');
+
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            items.forEach(item => {
+                const isDone = item.classList.contains(config.doneClass);
+                if (filter === 'all') {
+                    item.classList.remove('hidden');
+                } else if (filter === 'done') {
+                    item.classList.toggle('hidden', !isDone);
+                } else {
+                    item.classList.toggle('hidden', isDone);
+                }
+            });
+        }
+
+        // Generic search for new tabs
+        function searchItems(tabName, query) {
+            const config = tabConfig[tabName];
+            if (!config) return;
+
+            const items = document.querySelectorAll(config.selector);
+            const q = query.toLowerCase().trim();
+
+            items.forEach(item => {
+                const title = item.querySelector('.item-title').textContent.toLowerCase();
+                const meta = item.querySelector('.item-meta').textContent.toLowerCase();
                 const matches = title.includes(q) || meta.includes(q);
                 item.classList.toggle('hidden', !matches && q !== '');
             });
