@@ -497,8 +497,108 @@
                 font-size: 0.75rem;
             }
         }
+
+        /* Export button styles */
+        .export-btn {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            background: #32323a;
+            border: 1px solid #404048;
+            color: #a0a0a0;
+            padding: 0.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .export-btn svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        .export-btn:hover {
+            background: #3a3a42;
+            color: #e0e0e0;
+            border-color: #505058;
+        }
+
+        @media print {
+            * {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+            body {
+                background: white !important;
+                color: black !important;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+            .container {
+                max-width: 100% !important;
+                padding: 10px !important;
+            }
+            header {
+                background: white !important;
+                border: none !important;
+                padding: 10px !important;
+                margin-bottom: 10px !important;
+            }
+            h1, #header-title {
+                color: black !important;
+                font-size: 18pt !important;
+            }
+            .subtitle {
+                color: #444 !important;
+            }
+            .tab-nav, .controls, .export-btn, footer, .stats {
+                display: none !important;
+            }
+            .tab-content {
+                display: none !important;
+            }
+            .tab-content.active {
+                display: block !important;
+            }
+            .item, .book-item, .movie-item {
+                background: white !important;
+                border: none !important;
+                border-bottom: 1px solid #ddd !important;
+                padding: 4px 0 !important;
+                margin: 0 !important;
+                page-break-inside: avoid;
+            }
+            .item-title, .book-title, .movie-title {
+                color: black !important;
+                font-size: 10pt !important;
+            }
+            .item-meta, .book-author, .movie-meta {
+                color: #444 !important;
+                font-size: 8pt !important;
+            }
+            .item-rank, .book-rank, .movie-rank {
+                color: #666 !important;
+                font-size: 8pt !important;
+            }
+            .item-badge, .book-pages, .movie-scores, .movie-gross {
+                display: none !important;
+            }
+            .item.done .item-title::after,
+            .book-item.read .book-title::after,
+            .movie-item.watched .movie-title::after {
+                content: ' ✓';
+                color: green;
+            }
+            .hidden {
+                display: none !important;
+            }
+        }
     </style>
-</head>
+    </head>
 
 <body>
     <div class="container">
@@ -519,7 +619,11 @@
                     <span class="stat-label" id="stat-extra-label">Pages read</span>
                 </div>
             </div>
-        </header>
+            </header>
+
+        <button class="export-btn" onclick="exportToPDF()" id="export-btn" title="Export to PDF">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5 4H15V8H19V20H5V4ZM3.9985 2C3.44749 2 3 2.44405 3 2.9918V21.0082C3 21.5447 3.44476 22 3.9934 22H20.0066C20.5551 22 21 21.5489 21 20.9925L20.9997 7L16 2H3.9985ZM10.4999 7.5C10.4999 9.07749 10.0442 10.9373 9.27493 12.6534C8.50287 14.3757 7.46143 15.8502 6.37524 16.7191L7.55464 18.3321C10.4821 16.3804 13.7233 15.0421 16.8585 15.49L17.3162 13.5513C14.6435 12.6604 12.4999 9.98994 12.4999 7.5H10.4999ZM11.0999 13.4716C11.3673 12.8752 11.6042 12.2563 11.8037 11.6285C12.2753 12.3531 12.8553 13.0182 13.5101 13.5953C12.5283 13.7711 11.5665 14.0596 10.6352 14.4276C10.7999 14.1143 10.9551 13.7948 11.0999 13.4716Z"></path></svg>
+        </button>
 
         <div class="tab-nav">
             <button class="tab-btn active" onclick="switchTab('books')">Books</button>
@@ -20652,6 +20756,11 @@
                 const matches = title.includes(q) || meta.includes(q);
                 item.classList.toggle('hidden', !matches && q !== '');
             });
+        }
+
+        // Export to PDF using browser print
+        function exportToPDF() {
+            window.print();
         }
 
         // Initialize
